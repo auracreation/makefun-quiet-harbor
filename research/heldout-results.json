@@ -1,0 +1,376 @@
+{
+  "label": "Held-out Codex proxy; not GLM or official performance",
+  "unit": "One unique candidate/opponent matchup averaged across two reviewers and both orders",
+  "limitations": [
+    "Two shared reviewer contexts; four presentations are not four independent trials.",
+    "Opponent-cluster bootstrap and Wilson intervals are descriptive, not calibrated GLM confidence.",
+    "This fixed challenging pool is not a random sample of future opponents."
+  ],
+  "finalists": {
+    "R05": {
+      "by_source": {
+        "all_strong": {
+          "unique_opponents": 21,
+          "wins": 14,
+          "ties": 2,
+          "losses": 5,
+          "observed_win_fraction_all_opponents": 0.6666666666666666,
+          "decisive_win_fraction": 0.7368421052631579,
+          "wilson_95_decisive_descriptive": [
+            0.5120844910218489,
+            0.8819358765321748
+          ],
+          "mean_margin_share": 0.6071428571428571,
+          "mean_share_opponent_bootstrap_95_descriptive": [
+            0.5499404761904763,
+            0.6666666666666666
+          ]
+        },
+        "public": {
+          "unique_opponents": 15,
+          "wins": 13,
+          "ties": 0,
+          "losses": 2,
+          "observed_win_fraction_all_opponents": 0.8666666666666667,
+          "decisive_win_fraction": 0.8666666666666667,
+          "wilson_95_decisive_descriptive": [
+            0.6211801716767764,
+            0.9626387408969346
+          ],
+          "mean_margin_share": 0.6633333333333333,
+          "mean_share_opponent_bootstrap_95_descriptive": [
+            0.5999166666666667,
+            0.72
+          ]
+        },
+        "independent": {
+          "unique_opponents": 6,
+          "wins": 1,
+          "ties": 2,
+          "losses": 3,
+          "observed_win_fraction_all_opponents": 0.16666666666666666,
+          "decisive_win_fraction": 0.25,
+          "wilson_95_decisive_descriptive": [
+            0.04558726080970055,
+            0.6993581574175981
+          ],
+          "mean_margin_share": 0.4666666666666667,
+          "mean_share_opponent_bootstrap_95_descriptive": [
+            0.4166666666666667,
+            0.5333333333333333
+          ]
+        }
+      },
+      "per_opponent_margin_share": {
+        "PUB-b658fc8643": 0.7,
+        "PUB-408dd765dc": 0.6,
+        "HOLD-H02": 0.6,
+        "PUB-8eebec9edd": 0.75,
+        "PUB-1506329931": 0.8,
+        "PUB-934c4d43e2": 0.7,
+        "PUB-add9dac53c": 0.4,
+        "HOLD-H01": 0.4,
+        "HOLD-H06": 0.4,
+        "PUB-57cd56a552": 0.7,
+        "PUB-b290d0fb3a": 0.8,
+        "HOLD-H03": 0.5,
+        "PUB-5a44f3bb90": 0.7,
+        "PUB-f062e4d3ca": 0.6,
+        "PUB-1ac694c968": 0.8,
+        "PUB-145299a43f": 0.7,
+        "HOLD-H04": 0.5,
+        "PUB-d4999d3966": 0.7,
+        "PUB-9f31cc8a7f": 0.4,
+        "HOLD-H05": 0.4,
+        "PUB-f1558e6763": 0.6
+      }
+    },
+    "V07": {
+      "by_source": {
+        "all_strong": {
+          "unique_opponents": 21,
+          "wins": 14,
+          "ties": 4,
+          "losses": 3,
+          "observed_win_fraction_all_opponents": 0.6666666666666666,
+          "decisive_win_fraction": 0.8235294117647058,
+          "wilson_95_decisive_descriptive": [
+            0.5897054143116588,
+            0.9380887336237901
+          ],
+          "mean_margin_share": 0.6178571428571429,
+          "mean_share_opponent_bootstrap_95_descriptive": [
+            0.5654464285714286,
+            0.6714285714285714
+          ]
+        },
+        "public": {
+          "unique_opponents": 15,
+          "wins": 13,
+          "ties": 1,
+          "losses": 1,
+          "observed_win_fraction_all_opponents": 0.8666666666666667,
+          "decisive_win_fraction": 0.9285714285714286,
+          "wilson_95_decisive_descriptive": [
+            0.6853129557584889,
+            0.9872777847521093
+          ],
+          "mean_margin_share": 0.6749999999999999,
+          "mean_share_opponent_bootstrap_95_descriptive": [
+            0.6166249999999999,
+            0.7266666666666667
+          ]
+        },
+        "independent": {
+          "unique_opponents": 6,
+          "wins": 1,
+          "ties": 3,
+          "losses": 2,
+          "observed_win_fraction_all_opponents": 0.16666666666666666,
+          "decisive_win_fraction": 0.3333333333333333,
+          "wilson_95_decisive_descriptive": [
+            0.06149194472039621,
+            0.7923403991979522
+          ],
+          "mean_margin_share": 0.47500000000000003,
+          "mean_share_opponent_bootstrap_95_descriptive": [
+            0.43333333333333335,
+            0.5166666666666667
+          ]
+        }
+      },
+      "per_opponent_margin_share": {
+        "PUB-1506329931": 0.8,
+        "PUB-b658fc8643": 0.7,
+        "PUB-8eebec9edd": 0.75,
+        "PUB-145299a43f": 0.7,
+        "PUB-408dd765dc": 0.625,
+        "PUB-d4999d3966": 0.7,
+        "PUB-f062e4d3ca": 0.6,
+        "PUB-add9dac53c": 0.4,
+        "PUB-9f31cc8a7f": 0.5,
+        "HOLD-H05": 0.5,
+        "HOLD-H06": 0.4,
+        "PUB-934c4d43e2": 0.7,
+        "PUB-57cd56a552": 0.7,
+        "PUB-5a44f3bb90": 0.7,
+        "HOLD-H01": 0.4,
+        "HOLD-H03": 0.5,
+        "PUB-f1558e6763": 0.6499999999999999,
+        "HOLD-H02": 0.55,
+        "HOLD-H04": 0.5,
+        "PUB-b290d0fb3a": 0.8,
+        "PUB-1ac694c968": 0.8
+      }
+    },
+    "V08": {
+      "by_source": {
+        "all_strong": {
+          "unique_opponents": 21,
+          "wins": 16,
+          "ties": 3,
+          "losses": 2,
+          "observed_win_fraction_all_opponents": 0.7619047619047619,
+          "decisive_win_fraction": 0.8888888888888888,
+          "wilson_95_decisive_descriptive": [
+            0.672002348698212,
+            0.9689804773543876
+          ],
+          "mean_margin_share": 0.6309523809523809,
+          "mean_share_opponent_bootstrap_95_descriptive": [
+            0.580952380952381,
+            0.6833333333333333
+          ]
+        },
+        "public": {
+          "unique_opponents": 15,
+          "wins": 13,
+          "ties": 1,
+          "losses": 1,
+          "observed_win_fraction_all_opponents": 0.8666666666666667,
+          "decisive_win_fraction": 0.9285714285714286,
+          "wilson_95_decisive_descriptive": [
+            0.6853129557584889,
+            0.9872777847521093
+          ],
+          "mean_margin_share": 0.67,
+          "mean_share_opponent_bootstrap_95_descriptive": [
+            0.6133333333333333,
+            0.7233333333333334
+          ]
+        },
+        "independent": {
+          "unique_opponents": 6,
+          "wins": 3,
+          "ties": 2,
+          "losses": 1,
+          "observed_win_fraction_all_opponents": 0.5,
+          "decisive_win_fraction": 0.75,
+          "wilson_95_decisive_descriptive": [
+            0.30064184258240184,
+            0.9544127391902995
+          ],
+          "mean_margin_share": 0.5333333333333333,
+          "mean_share_opponent_bootstrap_95_descriptive": [
+            0.4666666666666667,
+            0.5833333333333333
+          ]
+        }
+      },
+      "per_opponent_margin_share": {
+        "PUB-f062e4d3ca": 0.6,
+        "PUB-1ac694c968": 0.8,
+        "PUB-add9dac53c": 0.4,
+        "HOLD-H05": 0.6,
+        "PUB-408dd765dc": 0.6,
+        "PUB-8eebec9edd": 0.75,
+        "PUB-d4999d3966": 0.7,
+        "PUB-145299a43f": 0.7,
+        "PUB-b658fc8643": 0.7,
+        "PUB-b290d0fb3a": 0.8,
+        "PUB-57cd56a552": 0.7,
+        "PUB-5a44f3bb90": 0.7,
+        "PUB-f1558e6763": 0.6,
+        "HOLD-H02": 0.6,
+        "PUB-9f31cc8a7f": 0.5,
+        "PUB-1506329931": 0.8,
+        "HOLD-H01": 0.5,
+        "HOLD-H04": 0.6,
+        "HOLD-H06": 0.4,
+        "PUB-934c4d43e2": 0.7,
+        "HOLD-H03": 0.5
+      }
+    },
+    "M05": {
+      "by_source": {
+        "all_strong": {
+          "unique_opponents": 21,
+          "wins": 14,
+          "ties": 2,
+          "losses": 5,
+          "observed_win_fraction_all_opponents": 0.6666666666666666,
+          "decisive_win_fraction": 0.7368421052631579,
+          "wilson_95_decisive_descriptive": [
+            0.5120844910218489,
+            0.8819358765321748
+          ],
+          "mean_margin_share": 0.6071428571428571,
+          "mean_share_opponent_bootstrap_95_descriptive": [
+            0.5475595238095238,
+            0.6666666666666666
+          ]
+        },
+        "public": {
+          "unique_opponents": 15,
+          "wins": 13,
+          "ties": 0,
+          "losses": 2,
+          "observed_win_fraction_all_opponents": 0.8666666666666667,
+          "decisive_win_fraction": 0.8666666666666667,
+          "wilson_95_decisive_descriptive": [
+            0.6211801716767764,
+            0.9626387408969346
+          ],
+          "mean_margin_share": 0.6633333333333333,
+          "mean_share_opponent_bootstrap_95_descriptive": [
+            0.6033333333333333,
+            0.72
+          ]
+        },
+        "independent": {
+          "unique_opponents": 6,
+          "wins": 1,
+          "ties": 2,
+          "losses": 3,
+          "observed_win_fraction_all_opponents": 0.16666666666666666,
+          "decisive_win_fraction": 0.25,
+          "wilson_95_decisive_descriptive": [
+            0.04558726080970055,
+            0.6993581574175981
+          ],
+          "mean_margin_share": 0.4666666666666667,
+          "mean_share_opponent_bootstrap_95_descriptive": [
+            0.4166666666666667,
+            0.5333333333333333
+          ]
+        }
+      },
+      "per_opponent_margin_share": {
+        "HOLD-H02": 0.6,
+        "PUB-57cd56a552": 0.7,
+        "PUB-b658fc8643": 0.7,
+        "PUB-b290d0fb3a": 0.8,
+        "PUB-5a44f3bb90": 0.7,
+        "PUB-8eebec9edd": 0.75,
+        "PUB-add9dac53c": 0.4,
+        "PUB-145299a43f": 0.7,
+        "HOLD-H01": 0.4,
+        "PUB-408dd765dc": 0.6,
+        "PUB-d4999d3966": 0.7,
+        "HOLD-H06": 0.4,
+        "HOLD-H03": 0.5,
+        "PUB-934c4d43e2": 0.7,
+        "PUB-1ac694c968": 0.8,
+        "HOLD-H04": 0.5,
+        "PUB-f062e4d3ca": 0.6,
+        "PUB-f1558e6763": 0.6499999999999999,
+        "PUB-9f31cc8a7f": 0.4,
+        "HOLD-H05": 0.4,
+        "PUB-1506329931": 0.75
+      }
+    }
+  },
+  "head_to_head": [
+    {
+      "a": "V07",
+      "b": "V08",
+      "score_a": 0.5
+    },
+    {
+      "a": "M05",
+      "b": "R05",
+      "score_a": 0.4
+    },
+    {
+      "a": "R05",
+      "b": "V08",
+      "score_a": 0.4
+    },
+    {
+      "a": "M05",
+      "b": "V08",
+      "score_a": 0.4
+    },
+    {
+      "a": "R05",
+      "b": "V07",
+      "score_a": 0.4
+    },
+    {
+      "a": "M05",
+      "b": "V07",
+      "score_a": 0.4
+    }
+  ],
+  "bootstrap_seed": 1794922052,
+  "unique_matchups": 90,
+  "raw_opinions": 360,
+  "rejected": [],
+  "position_diagnostics": {
+    "heldout_judge_one": {
+      "matchups": 90,
+      "winner_changed_on_reversal": 0,
+      "A_win_share": 0.5
+    },
+    "heldout_judge_two": {
+      "matchups": 90,
+      "winner_changed_on_reversal": 0,
+      "A_win_share": 0.5
+    }
+  },
+  "coverage": {
+    "complete": true,
+    "expected_unique_matchups": 90,
+    "observed_unique_matchups": 90
+  }
+}

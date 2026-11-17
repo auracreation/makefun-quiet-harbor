@@ -1,0 +1,242 @@
+[
+  {
+    "pair_id": "ranking-screen-all-next-001",
+    "a": "PUB-408dd765dc",
+    "b": "PUB-5a44f3bb90",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-002",
+    "a": "PUB-508ec8f5e5",
+    "b": "PUB-ff56059cda",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-003",
+    "a": "PUB-252a6ffb9f",
+    "b": "PUB-5170df90b6",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-004",
+    "a": "PUB-0ada40eb1e",
+    "b": "PUB-c304b8bd20",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-005",
+    "a": "PUB-32557a6390",
+    "b": "PUB-c3445222ab",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-006",
+    "a": "PUB-040edcbcc4",
+    "b": "PUB-3ddb0b6fa7",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-007",
+    "a": "PUB-7e350869fe",
+    "b": "PUB-31192b5517",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-008",
+    "a": "PUB-408dd765dc",
+    "b": "PUB-175babbb26",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-009",
+    "a": "PUB-5a44f3bb90",
+    "b": "PUB-508ec8f5e5",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-010",
+    "a": "PUB-ff56059cda",
+    "b": "PUB-252a6ffb9f",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-011",
+    "a": "PUB-5170df90b6",
+    "b": "PUB-0ada40eb1e",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-012",
+    "a": "PUB-c304b8bd20",
+    "b": "PUB-32557a6390",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-013",
+    "a": "PUB-c3445222ab",
+    "b": "PUB-040edcbcc4",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-014",
+    "a": "PUB-3ddb0b6fa7",
+    "b": "PUB-7e350869fe",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-015",
+    "a": "PUB-31192b5517",
+    "b": "PUB-175babbb26",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-016",
+    "a": "J02",
+    "b": "M04",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-017",
+    "a": "H02",
+    "b": "H04",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-018",
+    "a": "G03",
+    "b": "K04",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-019",
+    "a": "N02",
+    "b": "P05",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-020",
+    "a": "O02",
+    "b": "O05",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-021",
+    "a": "P03",
+    "b": "N05",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-022",
+    "a": "G05",
+    "b": "R02",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-023",
+    "a": "R01",
+    "b": "Q05",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-024",
+    "a": "K02",
+    "b": "P04",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-025",
+    "a": "Q02",
+    "b": "L03",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-026",
+    "a": "J05",
+    "b": "M03",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-027",
+    "a": "O01",
+    "b": "K05",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-028",
+    "a": "L01",
+    "b": "M02",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-029",
+    "a": "I03",
+    "b": "J03",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-030",
+    "a": "O04",
+    "b": "N01",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-031",
+    "a": "H01",
+    "b": "L04",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-032",
+    "a": "I05",
+    "b": "G01",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-033",
+    "a": "J04",
+    "b": "I02",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-034",
+    "a": "P02",
+    "b": "J01",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-035",
+    "a": "L05",
+    "b": "G04",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-036",
+    "a": "I01",
+    "b": "H05",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-037",
+    "a": "O03",
+    "b": "R03",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-038",
+    "a": "P01",
+    "b": "I04",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-039",
+    "a": "G02",
+    "b": "R04",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-all-next-040",
+    "a": "N04",
+    "b": "Q04",
+    "split": "development"
+  }
+]

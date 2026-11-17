@@ -1,0 +1,1262 @@
+[
+  {
+    "pair_id": "heldout-080-r1",
+    "comparison_id": "heldout-080",
+    "a": "Y022",
+    "b": "Y015",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-043-r1",
+    "comparison_id": "heldout-043",
+    "a": "Y003",
+    "b": "Y018",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-069-r2",
+    "comparison_id": "heldout-069",
+    "a": "Y015",
+    "b": "Y008",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-076-r2",
+    "comparison_id": "heldout-076",
+    "a": "Y019",
+    "b": "Y015",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-088-r2",
+    "comparison_id": "heldout-088",
+    "a": "Y003",
+    "b": "Y016",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-013-r2",
+    "comparison_id": "heldout-013",
+    "a": "Y019",
+    "b": "Y024",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-078-r1",
+    "comparison_id": "heldout-078",
+    "a": "Y012",
+    "b": "Y015",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-002-r1",
+    "comparison_id": "heldout-002",
+    "a": "Y024",
+    "b": "Y011",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-033-r1",
+    "comparison_id": "heldout-033",
+    "a": "Y016",
+    "b": "Y017",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-034-r2",
+    "comparison_id": "heldout-034",
+    "a": "Y016",
+    "b": "Y019",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-047-r2",
+    "comparison_id": "heldout-047",
+    "a": "Y010",
+    "b": "Y003",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-045-r2",
+    "comparison_id": "heldout-045",
+    "a": "Y003",
+    "b": "Y014",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-062-r2",
+    "comparison_id": "heldout-062",
+    "a": "Y020",
+    "b": "Y003",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-017-r2",
+    "comparison_id": "heldout-017",
+    "a": "Y022",
+    "b": "Y024",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-087-r2",
+    "comparison_id": "heldout-087",
+    "a": "Y015",
+    "b": "Y024",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-071-r2",
+    "comparison_id": "heldout-071",
+    "a": "Y023",
+    "b": "Y015",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-011-r2",
+    "comparison_id": "heldout-011",
+    "a": "Y024",
+    "b": "Y005",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-074-r2",
+    "comparison_id": "heldout-074",
+    "a": "Y015",
+    "b": "Y005",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-012-r1",
+    "comparison_id": "heldout-012",
+    "a": "Y017",
+    "b": "Y024",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-004-r2",
+    "comparison_id": "heldout-004",
+    "a": "Y006",
+    "b": "Y024",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-032-r1",
+    "comparison_id": "heldout-032",
+    "a": "Y016",
+    "b": "Y005",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-044-r1",
+    "comparison_id": "heldout-044",
+    "a": "Y003",
+    "b": "Y011",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-066-r2",
+    "comparison_id": "heldout-066",
+    "a": "Y014",
+    "b": "Y015",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-003-r1",
+    "comparison_id": "heldout-003",
+    "a": "Y024",
+    "b": "Y014",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-030-r1",
+    "comparison_id": "heldout-030",
+    "a": "Y004",
+    "b": "Y016",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-016-r2",
+    "comparison_id": "heldout-016",
+    "a": "Y024",
+    "b": "Y009",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-072-r2",
+    "comparison_id": "heldout-072",
+    "a": "Y015",
+    "b": "Y004",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-021-r1",
+    "comparison_id": "heldout-021",
+    "a": "Y025",
+    "b": "Y024",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-017-r1",
+    "comparison_id": "heldout-017",
+    "a": "Y024",
+    "b": "Y022",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-023-r2",
+    "comparison_id": "heldout-023",
+    "a": "Y011",
+    "b": "Y016",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-035-r1",
+    "comparison_id": "heldout-035",
+    "a": "Y016",
+    "b": "Y002",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-033-r2",
+    "comparison_id": "heldout-033",
+    "a": "Y017",
+    "b": "Y016",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-079-r1",
+    "comparison_id": "heldout-079",
+    "a": "Y015",
+    "b": "Y009",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-065-r2",
+    "comparison_id": "heldout-065",
+    "a": "Y015",
+    "b": "Y011",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-006-r1",
+    "comparison_id": "heldout-006",
+    "a": "Y008",
+    "b": "Y024",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-015-r2",
+    "comparison_id": "heldout-015",
+    "a": "Y024",
+    "b": "Y012",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-053-r1",
+    "comparison_id": "heldout-053",
+    "a": "Y005",
+    "b": "Y003",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-022-r2",
+    "comparison_id": "heldout-022",
+    "a": "Y016",
+    "b": "Y018",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-012-r2",
+    "comparison_id": "heldout-012",
+    "a": "Y024",
+    "b": "Y017",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-056-r2",
+    "comparison_id": "heldout-056",
+    "a": "Y002",
+    "b": "Y003",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-018-r2",
+    "comparison_id": "heldout-018",
+    "a": "Y024",
+    "b": "Y013",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-024-r2",
+    "comparison_id": "heldout-024",
+    "a": "Y014",
+    "b": "Y016",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-077-r2",
+    "comparison_id": "heldout-077",
+    "a": "Y002",
+    "b": "Y015",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-051-r1",
+    "comparison_id": "heldout-051",
+    "a": "Y003",
+    "b": "Y004",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-055-r1",
+    "comparison_id": "heldout-055",
+    "a": "Y019",
+    "b": "Y003",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-057-r1",
+    "comparison_id": "heldout-057",
+    "a": "Y012",
+    "b": "Y003",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-035-r2",
+    "comparison_id": "heldout-035",
+    "a": "Y002",
+    "b": "Y016",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-023-r1",
+    "comparison_id": "heldout-023",
+    "a": "Y016",
+    "b": "Y011",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-008-r1",
+    "comparison_id": "heldout-008",
+    "a": "Y024",
+    "b": "Y023",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-031-r1",
+    "comparison_id": "heldout-031",
+    "a": "Y007",
+    "b": "Y016",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-084-r1",
+    "comparison_id": "heldout-084",
+    "a": "Y015",
+    "b": "Y025",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-032-r2",
+    "comparison_id": "heldout-032",
+    "a": "Y005",
+    "b": "Y016",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-081-r2",
+    "comparison_id": "heldout-081",
+    "a": "Y013",
+    "b": "Y015",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-001-r1",
+    "comparison_id": "heldout-001",
+    "a": "Y024",
+    "b": "Y018",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-057-r2",
+    "comparison_id": "heldout-057",
+    "a": "Y003",
+    "b": "Y012",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-041-r2",
+    "comparison_id": "heldout-041",
+    "a": "Y020",
+    "b": "Y016",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-086-r1",
+    "comparison_id": "heldout-086",
+    "a": "Y024",
+    "b": "Y003",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-048-r2",
+    "comparison_id": "heldout-048",
+    "a": "Y008",
+    "b": "Y003",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-005-r2",
+    "comparison_id": "heldout-005",
+    "a": "Y024",
+    "b": "Y010",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-084-r2",
+    "comparison_id": "heldout-084",
+    "a": "Y025",
+    "b": "Y015",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-042-r1",
+    "comparison_id": "heldout-042",
+    "a": "Y025",
+    "b": "Y016",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-050-r1",
+    "comparison_id": "heldout-050",
+    "a": "Y023",
+    "b": "Y003",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-067-r1",
+    "comparison_id": "heldout-067",
+    "a": "Y015",
+    "b": "Y006",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-034-r1",
+    "comparison_id": "heldout-034",
+    "a": "Y019",
+    "b": "Y016",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-068-r2",
+    "comparison_id": "heldout-068",
+    "a": "Y015",
+    "b": "Y010",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-090-r1",
+    "comparison_id": "heldout-090",
+    "a": "Y003",
+    "b": "Y015",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-071-r1",
+    "comparison_id": "heldout-071",
+    "a": "Y015",
+    "b": "Y023",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-009-r1",
+    "comparison_id": "heldout-009",
+    "a": "Y024",
+    "b": "Y004",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-019-r1",
+    "comparison_id": "heldout-019",
+    "a": "Y024",
+    "b": "Y021",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-085-r2",
+    "comparison_id": "heldout-085",
+    "a": "Y024",
+    "b": "Y016",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-049-r1",
+    "comparison_id": "heldout-049",
+    "a": "Y003",
+    "b": "Y001",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-025-r2",
+    "comparison_id": "heldout-025",
+    "a": "Y006",
+    "b": "Y016",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-081-r1",
+    "comparison_id": "heldout-081",
+    "a": "Y015",
+    "b": "Y013",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-025-r1",
+    "comparison_id": "heldout-025",
+    "a": "Y016",
+    "b": "Y006",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-088-r1",
+    "comparison_id": "heldout-088",
+    "a": "Y016",
+    "b": "Y003",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-059-r1",
+    "comparison_id": "heldout-059",
+    "a": "Y003",
+    "b": "Y022",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-052-r1",
+    "comparison_id": "heldout-052",
+    "a": "Y003",
+    "b": "Y007",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-027-r1",
+    "comparison_id": "heldout-027",
+    "a": "Y008",
+    "b": "Y016",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-076-r1",
+    "comparison_id": "heldout-076",
+    "a": "Y015",
+    "b": "Y019",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-014-r2",
+    "comparison_id": "heldout-014",
+    "a": "Y002",
+    "b": "Y024",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-010-r1",
+    "comparison_id": "heldout-010",
+    "a": "Y024",
+    "b": "Y007",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-082-r1",
+    "comparison_id": "heldout-082",
+    "a": "Y021",
+    "b": "Y015",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-003-r2",
+    "comparison_id": "heldout-003",
+    "a": "Y014",
+    "b": "Y024",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-024-r1",
+    "comparison_id": "heldout-024",
+    "a": "Y016",
+    "b": "Y014",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-051-r2",
+    "comparison_id": "heldout-051",
+    "a": "Y004",
+    "b": "Y003",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-054-r1",
+    "comparison_id": "heldout-054",
+    "a": "Y003",
+    "b": "Y017",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-044-r2",
+    "comparison_id": "heldout-044",
+    "a": "Y011",
+    "b": "Y003",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-041-r1",
+    "comparison_id": "heldout-041",
+    "a": "Y016",
+    "b": "Y020",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-020-r1",
+    "comparison_id": "heldout-020",
+    "a": "Y024",
+    "b": "Y020",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-087-r1",
+    "comparison_id": "heldout-087",
+    "a": "Y024",
+    "b": "Y015",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-007-r1",
+    "comparison_id": "heldout-007",
+    "a": "Y001",
+    "b": "Y024",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-053-r2",
+    "comparison_id": "heldout-053",
+    "a": "Y003",
+    "b": "Y005",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-016-r1",
+    "comparison_id": "heldout-016",
+    "a": "Y009",
+    "b": "Y024",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-056-r1",
+    "comparison_id": "heldout-056",
+    "a": "Y003",
+    "b": "Y002",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-008-r2",
+    "comparison_id": "heldout-008",
+    "a": "Y023",
+    "b": "Y024",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-004-r1",
+    "comparison_id": "heldout-004",
+    "a": "Y024",
+    "b": "Y006",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-029-r1",
+    "comparison_id": "heldout-029",
+    "a": "Y023",
+    "b": "Y016",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-037-r1",
+    "comparison_id": "heldout-037",
+    "a": "Y009",
+    "b": "Y016",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-064-r1",
+    "comparison_id": "heldout-064",
+    "a": "Y015",
+    "b": "Y018",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-058-r1",
+    "comparison_id": "heldout-058",
+    "a": "Y009",
+    "b": "Y003",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-005-r1",
+    "comparison_id": "heldout-005",
+    "a": "Y010",
+    "b": "Y024",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-052-r2",
+    "comparison_id": "heldout-052",
+    "a": "Y007",
+    "b": "Y003",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-039-r1",
+    "comparison_id": "heldout-039",
+    "a": "Y013",
+    "b": "Y016",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-029-r2",
+    "comparison_id": "heldout-029",
+    "a": "Y016",
+    "b": "Y023",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-061-r1",
+    "comparison_id": "heldout-061",
+    "a": "Y021",
+    "b": "Y003",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-070-r1",
+    "comparison_id": "heldout-070",
+    "a": "Y015",
+    "b": "Y001",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-072-r1",
+    "comparison_id": "heldout-072",
+    "a": "Y004",
+    "b": "Y015",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-054-r2",
+    "comparison_id": "heldout-054",
+    "a": "Y017",
+    "b": "Y003",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-039-r2",
+    "comparison_id": "heldout-039",
+    "a": "Y016",
+    "b": "Y013",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-064-r2",
+    "comparison_id": "heldout-064",
+    "a": "Y018",
+    "b": "Y015",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-073-r1",
+    "comparison_id": "heldout-073",
+    "a": "Y007",
+    "b": "Y015",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-089-r2",
+    "comparison_id": "heldout-089",
+    "a": "Y016",
+    "b": "Y015",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-011-r1",
+    "comparison_id": "heldout-011",
+    "a": "Y005",
+    "b": "Y024",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-031-r2",
+    "comparison_id": "heldout-031",
+    "a": "Y016",
+    "b": "Y007",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-062-r1",
+    "comparison_id": "heldout-062",
+    "a": "Y003",
+    "b": "Y020",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-013-r1",
+    "comparison_id": "heldout-013",
+    "a": "Y024",
+    "b": "Y019",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-030-r2",
+    "comparison_id": "heldout-030",
+    "a": "Y016",
+    "b": "Y004",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-059-r2",
+    "comparison_id": "heldout-059",
+    "a": "Y022",
+    "b": "Y003",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-077-r1",
+    "comparison_id": "heldout-077",
+    "a": "Y015",
+    "b": "Y002",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-002-r2",
+    "comparison_id": "heldout-002",
+    "a": "Y011",
+    "b": "Y024",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-028-r1",
+    "comparison_id": "heldout-028",
+    "a": "Y016",
+    "b": "Y001",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-007-r2",
+    "comparison_id": "heldout-007",
+    "a": "Y024",
+    "b": "Y001",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-019-r2",
+    "comparison_id": "heldout-019",
+    "a": "Y021",
+    "b": "Y024",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-043-r2",
+    "comparison_id": "heldout-043",
+    "a": "Y018",
+    "b": "Y003",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-078-r2",
+    "comparison_id": "heldout-078",
+    "a": "Y015",
+    "b": "Y012",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-069-r1",
+    "comparison_id": "heldout-069",
+    "a": "Y008",
+    "b": "Y015",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-022-r1",
+    "comparison_id": "heldout-022",
+    "a": "Y018",
+    "b": "Y016",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-080-r2",
+    "comparison_id": "heldout-080",
+    "a": "Y015",
+    "b": "Y022",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-027-r2",
+    "comparison_id": "heldout-027",
+    "a": "Y016",
+    "b": "Y008",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-074-r1",
+    "comparison_id": "heldout-074",
+    "a": "Y005",
+    "b": "Y015",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-085-r1",
+    "comparison_id": "heldout-085",
+    "a": "Y016",
+    "b": "Y024",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-038-r1",
+    "comparison_id": "heldout-038",
+    "a": "Y022",
+    "b": "Y016",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-070-r2",
+    "comparison_id": "heldout-070",
+    "a": "Y001",
+    "b": "Y015",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-063-r1",
+    "comparison_id": "heldout-063",
+    "a": "Y025",
+    "b": "Y003",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-086-r2",
+    "comparison_id": "heldout-086",
+    "a": "Y003",
+    "b": "Y024",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-037-r2",
+    "comparison_id": "heldout-037",
+    "a": "Y016",
+    "b": "Y009",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-058-r2",
+    "comparison_id": "heldout-058",
+    "a": "Y003",
+    "b": "Y009",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-089-r1",
+    "comparison_id": "heldout-089",
+    "a": "Y015",
+    "b": "Y016",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-028-r2",
+    "comparison_id": "heldout-028",
+    "a": "Y001",
+    "b": "Y016",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-046-r2",
+    "comparison_id": "heldout-046",
+    "a": "Y003",
+    "b": "Y006",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-065-r1",
+    "comparison_id": "heldout-065",
+    "a": "Y011",
+    "b": "Y015",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-083-r2",
+    "comparison_id": "heldout-083",
+    "a": "Y015",
+    "b": "Y020",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-048-r1",
+    "comparison_id": "heldout-048",
+    "a": "Y003",
+    "b": "Y008",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-066-r1",
+    "comparison_id": "heldout-066",
+    "a": "Y015",
+    "b": "Y014",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-009-r2",
+    "comparison_id": "heldout-009",
+    "a": "Y004",
+    "b": "Y024",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-060-r2",
+    "comparison_id": "heldout-060",
+    "a": "Y013",
+    "b": "Y003",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-021-r2",
+    "comparison_id": "heldout-021",
+    "a": "Y024",
+    "b": "Y025",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-042-r2",
+    "comparison_id": "heldout-042",
+    "a": "Y016",
+    "b": "Y025",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-055-r2",
+    "comparison_id": "heldout-055",
+    "a": "Y003",
+    "b": "Y019",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-040-r2",
+    "comparison_id": "heldout-040",
+    "a": "Y021",
+    "b": "Y016",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-014-r1",
+    "comparison_id": "heldout-014",
+    "a": "Y024",
+    "b": "Y002",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-010-r2",
+    "comparison_id": "heldout-010",
+    "a": "Y007",
+    "b": "Y024",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-036-r1",
+    "comparison_id": "heldout-036",
+    "a": "Y016",
+    "b": "Y012",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-073-r2",
+    "comparison_id": "heldout-073",
+    "a": "Y015",
+    "b": "Y007",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-049-r2",
+    "comparison_id": "heldout-049",
+    "a": "Y001",
+    "b": "Y003",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-075-r2",
+    "comparison_id": "heldout-075",
+    "a": "Y017",
+    "b": "Y015",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-038-r2",
+    "comparison_id": "heldout-038",
+    "a": "Y016",
+    "b": "Y022",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-063-r2",
+    "comparison_id": "heldout-063",
+    "a": "Y003",
+    "b": "Y025",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-015-r1",
+    "comparison_id": "heldout-015",
+    "a": "Y012",
+    "b": "Y024",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-061-r2",
+    "comparison_id": "heldout-061",
+    "a": "Y003",
+    "b": "Y021",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-045-r1",
+    "comparison_id": "heldout-045",
+    "a": "Y014",
+    "b": "Y003",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-040-r1",
+    "comparison_id": "heldout-040",
+    "a": "Y016",
+    "b": "Y021",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-083-r1",
+    "comparison_id": "heldout-083",
+    "a": "Y020",
+    "b": "Y015",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-082-r2",
+    "comparison_id": "heldout-082",
+    "a": "Y015",
+    "b": "Y021",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-001-r2",
+    "comparison_id": "heldout-001",
+    "a": "Y018",
+    "b": "Y024",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-026-r2",
+    "comparison_id": "heldout-026",
+    "a": "Y010",
+    "b": "Y016",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-067-r2",
+    "comparison_id": "heldout-067",
+    "a": "Y006",
+    "b": "Y015",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-020-r2",
+    "comparison_id": "heldout-020",
+    "a": "Y020",
+    "b": "Y024",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-018-r1",
+    "comparison_id": "heldout-018",
+    "a": "Y013",
+    "b": "Y024",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-068-r1",
+    "comparison_id": "heldout-068",
+    "a": "Y010",
+    "b": "Y015",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-026-r1",
+    "comparison_id": "heldout-026",
+    "a": "Y016",
+    "b": "Y010",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-036-r2",
+    "comparison_id": "heldout-036",
+    "a": "Y012",
+    "b": "Y016",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-079-r2",
+    "comparison_id": "heldout-079",
+    "a": "Y009",
+    "b": "Y015",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-006-r2",
+    "comparison_id": "heldout-006",
+    "a": "Y024",
+    "b": "Y008",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-046-r1",
+    "comparison_id": "heldout-046",
+    "a": "Y006",
+    "b": "Y003",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-047-r1",
+    "comparison_id": "heldout-047",
+    "a": "Y003",
+    "b": "Y010",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-090-r2",
+    "comparison_id": "heldout-090",
+    "a": "Y015",
+    "b": "Y003",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-075-r1",
+    "comparison_id": "heldout-075",
+    "a": "Y015",
+    "b": "Y017",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-050-r2",
+    "comparison_id": "heldout-050",
+    "a": "Y003",
+    "b": "Y023",
+    "split": "held_out"
+  },
+  {
+    "pair_id": "heldout-060-r1",
+    "comparison_id": "heldout-060",
+    "a": "Y003",
+    "b": "Y013",
+    "split": "held_out"
+  }
+]

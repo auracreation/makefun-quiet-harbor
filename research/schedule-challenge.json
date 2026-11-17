@@ -1,0 +1,632 @@
+[
+  {
+    "pair_id": "challenge-068",
+    "a": "X010",
+    "b": "X004",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-014",
+    "a": "X013",
+    "b": "X003",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-099",
+    "a": "X002",
+    "b": "X001",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-057",
+    "a": "X013",
+    "b": "X001",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-021",
+    "a": "X003",
+    "b": "X006",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-045",
+    "a": "X002",
+    "b": "X008",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-029",
+    "a": "X004",
+    "b": "X002",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-013",
+    "a": "X016",
+    "b": "X013",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-002",
+    "a": "X006",
+    "b": "X005",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-043",
+    "a": "X011",
+    "b": "X002",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-001",
+    "a": "X005",
+    "b": "X013",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-097",
+    "a": "X002",
+    "b": "X014",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-030",
+    "a": "X004",
+    "b": "X008",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-016",
+    "a": "X013",
+    "b": "X002",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-050",
+    "a": "X005",
+    "b": "X010",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-077",
+    "a": "X016",
+    "b": "X015",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-088",
+    "a": "X011",
+    "b": "X009",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-102",
+    "a": "X007",
+    "b": "X008",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-054",
+    "a": "X007",
+    "b": "X013",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-024",
+    "a": "X008",
+    "b": "X006",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-083",
+    "a": "X015",
+    "b": "X003",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-084",
+    "a": "X003",
+    "b": "X007",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-018",
+    "a": "X006",
+    "b": "X004",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-103",
+    "a": "X014",
+    "b": "X008",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-053",
+    "a": "X015",
+    "b": "X013",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-064",
+    "a": "X009",
+    "b": "X004",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-073",
+    "a": "X012",
+    "b": "X014",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-035",
+    "a": "X008",
+    "b": "X012",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-044",
+    "a": "X008",
+    "b": "X011",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-020",
+    "a": "X016",
+    "b": "X006",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-079",
+    "a": "X014",
+    "b": "X016",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-011",
+    "a": "X004",
+    "b": "X013",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-056",
+    "a": "X013",
+    "b": "X010",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-063",
+    "a": "X001",
+    "b": "X006",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-008",
+    "a": "X002",
+    "b": "X005",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-005",
+    "a": "X005",
+    "b": "X016",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-078",
+    "a": "X016",
+    "b": "X007",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-080",
+    "a": "X016",
+    "b": "X010",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-041",
+    "a": "X003",
+    "b": "X002",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-025",
+    "a": "X012",
+    "b": "X004",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-075",
+    "a": "X001",
+    "b": "X012",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-081",
+    "a": "X016",
+    "b": "X001",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-048",
+    "a": "X005",
+    "b": "X007",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-040",
+    "a": "X003",
+    "b": "X011",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-094",
+    "a": "X009",
+    "b": "X002",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-027",
+    "a": "X004",
+    "b": "X003",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-060",
+    "a": "X006",
+    "b": "X007",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-082",
+    "a": "X009",
+    "b": "X003",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-004",
+    "a": "X012",
+    "b": "X005",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-015",
+    "a": "X011",
+    "b": "X013",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-087",
+    "a": "X001",
+    "b": "X003",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-017",
+    "a": "X013",
+    "b": "X008",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-059",
+    "a": "X015",
+    "b": "X006",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-092",
+    "a": "X011",
+    "b": "X010",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-038",
+    "a": "X016",
+    "b": "X002",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-012",
+    "a": "X012",
+    "b": "X013",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-046",
+    "a": "X005",
+    "b": "X009",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-023",
+    "a": "X006",
+    "b": "X002",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-066",
+    "a": "X007",
+    "b": "X004",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-006",
+    "a": "X003",
+    "b": "X005",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-065",
+    "a": "X015",
+    "b": "X004",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-033",
+    "a": "X011",
+    "b": "X012",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-034",
+    "a": "X012",
+    "b": "X002",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-070",
+    "a": "X012",
+    "b": "X009",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-031",
+    "a": "X016",
+    "b": "X012",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-104",
+    "a": "X008",
+    "b": "X010",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-074",
+    "a": "X012",
+    "b": "X010",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-067",
+    "a": "X014",
+    "b": "X004",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-007",
+    "a": "X005",
+    "b": "X011",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-010",
+    "a": "X013",
+    "b": "X006",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-037",
+    "a": "X016",
+    "b": "X011",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-019",
+    "a": "X012",
+    "b": "X006",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-039",
+    "a": "X016",
+    "b": "X008",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-026",
+    "a": "X016",
+    "b": "X004",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-061",
+    "a": "X006",
+    "b": "X014",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-049",
+    "a": "X005",
+    "b": "X014",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-100",
+    "a": "X009",
+    "b": "X008",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-032",
+    "a": "X003",
+    "b": "X012",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-076",
+    "a": "X016",
+    "b": "X009",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-091",
+    "a": "X011",
+    "b": "X014",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-095",
+    "a": "X002",
+    "b": "X015",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-042",
+    "a": "X008",
+    "b": "X003",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-028",
+    "a": "X004",
+    "b": "X011",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-093",
+    "a": "X001",
+    "b": "X011",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-096",
+    "a": "X002",
+    "b": "X007",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-009",
+    "a": "X008",
+    "b": "X005",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-058",
+    "a": "X006",
+    "b": "X009",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-089",
+    "a": "X011",
+    "b": "X015",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-062",
+    "a": "X010",
+    "b": "X006",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-105",
+    "a": "X008",
+    "b": "X001",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-101",
+    "a": "X008",
+    "b": "X015",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-022",
+    "a": "X011",
+    "b": "X006",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-055",
+    "a": "X013",
+    "b": "X014",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-098",
+    "a": "X002",
+    "b": "X010",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-071",
+    "a": "X012",
+    "b": "X015",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-047",
+    "a": "X005",
+    "b": "X015",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-051",
+    "a": "X001",
+    "b": "X005",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-086",
+    "a": "X010",
+    "b": "X003",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-085",
+    "a": "X014",
+    "b": "X003",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-003",
+    "a": "X004",
+    "b": "X005",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-052",
+    "a": "X013",
+    "b": "X009",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-069",
+    "a": "X004",
+    "b": "X001",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-036",
+    "a": "X003",
+    "b": "X016",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-090",
+    "a": "X011",
+    "b": "X007",
+    "split": "development"
+  },
+  {
+    "pair_id": "challenge-072",
+    "a": "X007",
+    "b": "X012",
+    "split": "development"
+  }
+]

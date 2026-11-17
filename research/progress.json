@@ -1,0 +1,46 @@
+{
+  "updated_at": "2026-11-17T15:06:09.856118+00:00",
+  "goal_revision": "99.5% target; 120 candidates; public competitor-first finalist selection",
+  "account": "alpaca",
+  "login": "verified approved",
+  "candidates": 120,
+  "external_api_spend_usd": 0,
+  "completed_proxy_opinions": 1584,
+  "official_submissions": 0,
+  "official_score": null,
+  "champion": "R05 preserved; fresh final selection pending",
+  "tests": {
+    "python": "3.13.14",
+    "passed": 23
+  },
+  "screening": "Recovery complete; fresh validation judging underway",
+  "remaining": [
+    "Finish public competitor screening of all120",
+    "Strong-candidate tournament",
+    "Parent/challenger optimization",
+    "Fresh held-out validation",
+    "Minimal final runtime and20-run validation",
+    "GitHub/public metadata",
+    "Authentic final bundle and official kit check",
+    "Fee payment authorization/funding",
+    "Submission only after all gates"
+  ],
+  "seed_variants": 6,
+  "public_screen_first60": {
+    "wins": 66,
+    "ties": 14,
+    "losses": 40,
+    "games": 120,
+    "source": "agent proxy, not GLM"
+  },
+  "public_screen_all120": {
+    "wins": 128,
+    "ties": 31,
+    "losses": 81,
+    "games": 240,
+    "source": "agent proxy, not GLM"
+  },
+  "completed_unique_schedule_matchups": 702,
+  "first_validation": "Four finalists, 90 matched comparisons, 360 recorded opinions",
+  "recovery": "105 complete games, 210 recorded opinions"
+}

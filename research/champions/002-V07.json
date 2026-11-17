@@ -1,0 +1,10 @@
+{
+  "candidate_id": "V07",
+  "title": "The Ceiling in the Water",
+  "parent_id": "R05",
+  "previous_incumbent": "001-R05",
+  "characters": 450,
+  "sha256": "49995356f8c6ba8c52a88350dcd735b07462381c0316a2c47fba99d52a818a29",
+  "promoted_at": "2026-11-17T15:15:23.975517+00:00",
+  "evidence": "Fresh validation 17W/3D/1L vs 21 strong opponents. Highest win count and mean margin share. Tied HOLD-H06 and won against V08 in the fresh direct matchups. Codex proxy selection, with no official GLM result."
+}

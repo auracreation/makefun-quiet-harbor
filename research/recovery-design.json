@@ -1,0 +1,26 @@
+{
+  "candidates": [
+    "R05",
+    "V07",
+    "V08",
+    "M05",
+    "HOLD-H01",
+    "HOLD-H02",
+    "HOLD-H03",
+    "HOLD-H04",
+    "HOLD-H05",
+    "HOLD-H06"
+  ],
+  "training_public_ids": [
+    "PUB-add9dac53c",
+    "PUB-9f31cc8a7f",
+    "PUB-f062e4d3ca",
+    "PUB-408dd765dc",
+    "PUB-f1558e6763",
+    "PUB-934c4d43e2"
+  ],
+  "selection": "The six hardest prior public opponents for V08, including losses/ties; firstheldout is nowtraining",
+  "games": 105,
+  "seed": 1794922053,
+  "goal": "Test whether independently original strong baselines outperform provisional incumbents; do not inflate withweakcontrols"
+}

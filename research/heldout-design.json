@@ -1,0 +1,17 @@
+{
+  "finalists": [
+    "R05",
+    "V07",
+    "V08",
+    "M05"
+  ],
+  "strong_public_opponents": 15,
+  "strong_independent_opponents": 6,
+  "unique_matchups": 90,
+  "games": 180,
+  "opinions": 360,
+  "seed": 1154652980,
+  "design": "Two fresh reviewers each assess every matchup in both orientations, randomized and separated in schedule. Cluster final summaries by unique comparison_id/opponent, not180 independent games.",
+  "primary_source": "21 strong heldout opponents; four diagnostic negatives excluded",
+  "promotion": "Preserve incumbent unless fresh heldout and direct evidence supports revision. No99.5% claim from tiny unbeaten records."
+}

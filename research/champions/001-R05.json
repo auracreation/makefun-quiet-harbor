@@ -1,0 +1,11 @@
+{
+  "champion_id": "001-R05",
+  "candidate_id": "R05",
+  "promoted_at": "2026-11-17T14:39:06.177038+00:00",
+  "status": "provisional proxy incumbent, not final selection",
+  "text": "The bathwater has cooled enough for her to trail a hand in it. On the stool beside the tub, a towel has been folded with the worn patch hidden underneath. Through the wall she hears a cupboard being closed and the light footsteps of someone going upstairs. She lifts her hand. Water follows the curve of her wrist, gathers at her elbow, and falls. The surface moves toward the sides of the tub and back, each return a little lower, until the pale ceiling lies in it again.",
+  "sha256": "020de536dd3eb92282d9b6f1110d109450e9f0f5c82562e314bea06c94ef05ab",
+  "characters": 472,
+  "evidence": "ranking-strong.json; eight complete games,8wins,0ties,0losses; multiple correlated proxy batches; no official GLM calls",
+  "replacement_rule": "Only replace after documented comparative improvement; preserve this snapshot"
+}

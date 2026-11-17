@@ -1,0 +1,14 @@
+{
+  "runs": 20,
+  "unique_hashes": 1,
+  "sha256": "49995356f8c6ba8c52a88350dcd735b07462381c0316a2c47fba99d52a818a29",
+  "characters": 450,
+  "bytes": 450,
+  "encoding": "UTF-8",
+  "python": "3.13.14",
+  "runtime_imports": [
+    "os",
+    "pathlib"
+  ],
+  "limitations": "Local macOS process test, not Linux sandbox or sealed judge; source still needs manual network audit"
+}

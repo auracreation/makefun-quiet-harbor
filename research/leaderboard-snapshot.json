@@ -1,0 +1,1287 @@
+{
+  "retrieved_at": "2026-11-17T14:15:00.289598+00:00",
+  "url": "https://make.fun/api/competitions/ai-judge-relax-01/leaderboard",
+  "data": {
+    "competition": {
+      "slug": "ai-judge-relax-01",
+      "title": "Make the AI judge relax",
+      "status": "open",
+      "visibility": "public",
+      "placements": "after_finalize",
+      "resolved_phase": null
+    },
+    "phase": {
+      "key": "dev",
+      "title": "Development",
+      "starts_at": "2026-11-17T14:00:00.000Z",
+      "ends_at": "2026-11-18T14:00:00.000Z",
+      "finalized_at": null,
+      "scores": "live",
+      "scores_visible": true,
+      "placements_held": true,
+      "dataset_sha256": null
+    },
+    "view": "performance",
+    "views": [
+      "overall",
+      "performance"
+    ],
+    "metrics_withheld": true,
+    "title": "Results",
+    "rank_key": "judge",
+    "tie_break": {
+      "key": "bytes",
+      "title": "Size",
+      "better": "lower"
+    },
+    "cost_key": null,
+    "overall_key": null,
+    "submission_rule": "Force_Last",
+    "columns": [
+      {
+        "key": "judge",
+        "title": "Judge win rate",
+        "index": 0,
+        "sorting": "desc",
+        "precision": 0,
+        "hidden": false,
+        "computation": null,
+        "computation_indexes": null,
+        "source": "performance.judge.win_rate_micro"
+      },
+      {
+        "key": "judge_low",
+        "title": "Interval low",
+        "index": 1,
+        "sorting": "desc",
+        "precision": 0,
+        "hidden": false,
+        "computation": null,
+        "computation_indexes": null,
+        "source": "performance.judge.interval_low_micro"
+      },
+      {
+        "key": "judge_high",
+        "title": "Interval high",
+        "index": 2,
+        "sorting": "desc",
+        "precision": 0,
+        "hidden": false,
+        "computation": null,
+        "computation_indexes": null,
+        "source": "performance.judge.interval_high_micro"
+      },
+      {
+        "key": "valid",
+        "title": "Valid",
+        "index": 3,
+        "sorting": "desc",
+        "precision": 0,
+        "hidden": false,
+        "computation": null,
+        "computation_indexes": null,
+        "source": null
+      },
+      {
+        "key": "bytes",
+        "title": "Size",
+        "index": 4,
+        "sorting": "asc",
+        "precision": 0,
+        "hidden": false,
+        "computation": null,
+        "computation_indexes": null,
+        "source": "performance.judge.artifact_bytes"
+      }
+    ],
+    "harness_kind": "program/v1",
+    "interval": null,
+    "quote": null,
+    "resolution": null,
+    "entries": [
+      {
+        "rank": 1,
+        "ranks": {
+          "overall": 1,
+          "performance": 1,
+          "cost": null,
+          "efficiency": null
+        },
+        "prize_rank": 1,
+        "submission_id": "01a1e9d6-2518-71fa-9691-c7a2fec94e3d",
+        "handle": "amrusalim",
+        "title": "The old dog and the patch of sun",
+        "image": null,
+        "repo_url": "",
+        "commit_sha": "",
+        "source_withheld": true,
+        "received_at": "2026-11-17T14:08:07.815Z",
+        "baseline": false,
+        "house": false,
+        "internal": false,
+        "status": "finished",
+        "ranked": true,
+        "compliant": true,
+        "prize_eligible": true,
+        "efficiency_eligible": false,
+        "reasons": [
+          "partial_usage_lines"
+        ],
+        "efficiency_gaps": [
+          "partial_usage",
+          "partial_usage_lines"
+        ],
+        "values": {
+          "judge": 875946,
+          "judge_low": 848981,
+          "judge_high": 902911,
+          "valid": 1,
+          "bytes": 669
+        },
+        "display": {
+          "judge": "875946",
+          "judge_low": "848981",
+          "judge_high": "902911",
+          "valid": "1",
+          "bytes": "669"
+        },
+        "column_ranks": {
+          "judge": 1,
+          "judge_low": 1,
+          "judge_high": 1,
+          "valid": 1,
+          "bytes": 6
+        },
+        "cost": {
+          "micro_usd": "883458",
+          "priced_micro_usd": "883458",
+          "lines": 18,
+          "unpriced_lines": 0,
+          "partial_lines": 18,
+          "inconsistent_lines": 0,
+          "provenance": "agent-log"
+        },
+        "tokens": null,
+        "models": null,
+        "interval": {
+          "level": "0.900000000",
+          "low": "848981",
+          "high": "902911"
+        },
+        "rank_range": {
+          "best": 1,
+          "worst": 2
+        },
+        "pareto": false,
+        "hull": false,
+        "run_id": "01a1e9d8-6fa5-7524-b33a-bfb1a4d05be4",
+        "result_sha256": "d1e45d76c8648aecca877c5591d59daed5ceefb33d936c8e0b8e1efebd53e55b",
+        "reproduced": false,
+        "judge": {
+          "wins": 13,
+          "draws": 1,
+          "losses": 1,
+          "matches": 15,
+          "finalist": false,
+          "provisional": true,
+          "artifact_sha256": "560444f6cc9097a80aa5593bae17843b2b63da05686f25add8ef28ccb54c49c0",
+          "artifact": {
+            "media": "text",
+            "url": "/api/submissions/01a1e9d6-2518-71fa-9691-c7a2fec94e3d/artifact.txt?phase=dev",
+            "preview_url": "/api/submissions/01a1e9d6-2518-71fa-9691-c7a2fec94e3d/artifact.txt?phase=dev&bytes=280",
+            "sha256": "560444f6cc9097a80aa5593bae17843b2b63da05686f25add8ef28ccb54c49c0"
+          }
+        },
+        "build_wall_ms": 369307,
+        "clone_url": "",
+        "served_by": null,
+        "origin_url": null,
+        "tie_runs": []
+      },
+      {
+        "rank": 2,
+        "ranks": {
+          "overall": 2,
+          "performance": 2,
+          "cost": null,
+          "efficiency": null
+        },
+        "prize_rank": 2,
+        "submission_id": "01a1e9d3-235c-7616-af33-6483b4361747",
+        "handle": "xiinnq799-boop",
+        "title": "Rain thinning on a zinc roof",
+        "image": "https://avatars.githubusercontent.com/u/356823568?v=4",
+        "repo_url": "",
+        "commit_sha": "",
+        "source_withheld": true,
+        "received_at": "2026-11-17T14:04:50.895Z",
+        "baseline": false,
+        "house": false,
+        "internal": false,
+        "status": "finished",
+        "ranked": true,
+        "compliant": true,
+        "prize_eligible": true,
+        "efficiency_eligible": false,
+        "reasons": [
+          "partial_usage_lines"
+        ],
+        "efficiency_gaps": [
+          "partial_usage",
+          "partial_usage_lines"
+        ],
+        "values": {
+          "judge": 855136,
+          "judge_low": 825918,
+          "judge_high": 884354,
+          "valid": 1,
+          "bytes": 534
+        },
+        "display": {
+          "judge": "855136",
+          "judge_low": "825918",
+          "judge_high": "884354",
+          "valid": "1",
+          "bytes": "534"
+        },
+        "column_ranks": {
+          "judge": 2,
+          "judge_low": 2,
+          "judge_high": 2,
+          "valid": 1,
+          "bytes": 3
+        },
+        "cost": {
+          "micro_usd": "490974",
+          "priced_micro_usd": "490974",
+          "lines": 1,
+          "unpriced_lines": 0,
+          "partial_lines": 1,
+          "inconsistent_lines": 0,
+          "provenance": "agent-log"
+        },
+        "tokens": null,
+        "models": null,
+        "interval": {
+          "level": "0.900000000",
+          "low": "825918",
+          "high": "884354"
+        },
+        "rank_range": {
+          "best": 1,
+          "worst": 5
+        },
+        "pareto": false,
+        "hull": false,
+        "run_id": "01a1e9d5-0ca7-7011-8480-4c5f88ed7c46",
+        "result_sha256": "b433a07fd0ee9bb338a660231d3ec30c106b20147d0eef1b4b7a96c2fcd15bb1",
+        "reproduced": false,
+        "judge": {
+          "wins": 10,
+          "draws": 4,
+          "losses": 1,
+          "matches": 15,
+          "finalist": false,
+          "provisional": true,
+          "artifact_sha256": "b5c2e47a4caac44ab56d084ec09ecf7d4cefbbc695feeba5a02a21f8dfaa1786",
+          "artifact": {
+            "media": "text",
+            "url": "/api/submissions/01a1e9d3-235c-7616-af33-6483b4361747/artifact.txt?phase=dev",
+            "preview_url": "/api/submissions/01a1e9d3-235c-7616-af33-6483b4361747/artifact.txt?phase=dev&bytes=280",
+            "sha256": "b5c2e47a4caac44ab56d084ec09ecf7d4cefbbc695feeba5a02a21f8dfaa1786"
+          }
+        },
+        "build_wall_ms": 60916,
+        "clone_url": "",
+        "served_by": null,
+        "origin_url": null,
+        "tie_runs": []
+      },
+      {
+        "rank": 3,
+        "ranks": {
+          "overall": 3,
+          "performance": 3,
+          "cost": null,
+          "efficiency": null
+        },
+        "prize_rank": 3,
+        "submission_id": "01a1e9d6-842c-74d7-b72e-b6cab1ebd79d",
+        "handle": "rapid-panda-66",
+        "title": "Orchard at Dusk",
+        "image": "/api/avatars/6bdfadb2c7fda749477ff6ba729ff44a986a43968ce65b4214ebe9a6e5c42e29.webp",
+        "repo_url": "",
+        "commit_sha": "",
+        "source_withheld": true,
+        "received_at": "2026-11-17T14:08:32.273Z",
+        "baseline": false,
+        "house": false,
+        "internal": false,
+        "status": "finished",
+        "ranked": true,
+        "compliant": true,
+        "prize_eligible": true,
+        "efficiency_eligible": false,
+        "reasons": [
+          "partial_usage_lines"
+        ],
+        "efficiency_gaps": [
+          "partial_usage",
+          "partial_usage_lines"
+        ],
+        "values": {
+          "judge": 815811,
+          "judge_low": 782858,
+          "judge_high": 848763,
+          "valid": 1,
+          "bytes": 674
+        },
+        "display": {
+          "judge": "815811",
+          "judge_low": "782858",
+          "judge_high": "848763",
+          "valid": "1",
+          "bytes": "674"
+        },
+        "column_ranks": {
+          "judge": 3,
+          "judge_low": 3,
+          "judge_high": 3,
+          "valid": 1,
+          "bytes": 7
+        },
+        "cost": {
+          "micro_usd": "1548391",
+          "priced_micro_usd": "1548391",
+          "lines": 1,
+          "unpriced_lines": 0,
+          "partial_lines": 1,
+          "inconsistent_lines": 0,
+          "provenance": "agent-log"
+        },
+        "tokens": null,
+        "models": null,
+        "interval": {
+          "level": "0.900000000",
+          "low": "782858",
+          "high": "848763"
+        },
+        "rank_range": {
+          "best": 2,
+          "worst": 7
+        },
+        "pareto": false,
+        "hull": false,
+        "run_id": "01a1e9d9-1bab-7158-9cb2-798d600ffa31",
+        "result_sha256": "1fa6060ea8b6c9095f496b1d317262f3823cd8ab5f87b33db4c4a220ab961642",
+        "reproduced": false,
+        "judge": {
+          "wins": 9,
+          "draws": 2,
+          "losses": 4,
+          "matches": 15,
+          "finalist": false,
+          "provisional": true,
+          "artifact_sha256": "f2e6e82a433d0069c6c012e04ed7a1e7bf180100b8f5d822be35aaa517bda6d1",
+          "artifact": {
+            "media": "text",
+            "url": "/api/submissions/01a1e9d6-842c-74d7-b72e-b6cab1ebd79d/artifact.txt?phase=dev",
+            "preview_url": "/api/submissions/01a1e9d6-842c-74d7-b72e-b6cab1ebd79d/artifact.txt?phase=dev&bytes=280",
+            "sha256": "f2e6e82a433d0069c6c012e04ed7a1e7bf180100b8f5d822be35aaa517bda6d1"
+          }
+        },
+        "build_wall_ms": 76888,
+        "clone_url": "",
+        "served_by": null,
+        "origin_url": null,
+        "tie_runs": []
+      },
+      {
+        "rank": 4,
+        "ranks": {
+          "overall": 4,
+          "performance": 4,
+          "cost": null,
+          "efficiency": null
+        },
+        "prize_rank": 4,
+        "submission_id": "01a1e9d5-26ab-73c0-a8b0-d407616e8cda",
+        "handle": "golden-coyote-11",
+        "title": "Quiet platform after the last train",
+        "image": null,
+        "repo_url": "",
+        "commit_sha": "",
+        "source_withheld": true,
+        "received_at": "2026-11-17T14:07:02.687Z",
+        "baseline": false,
+        "house": false,
+        "internal": false,
+        "status": "finished",
+        "ranked": true,
+        "compliant": true,
+        "prize_eligible": true,
+        "efficiency_eligible": false,
+        "reasons": [
+          "partial_usage_lines",
+          "inconsistent_usage_lines"
+        ],
+        "efficiency_gaps": [
+          "inconsistent_usage",
+          "inconsistent_usage_lines",
+          "partial_usage",
+          "partial_usage_lines"
+        ],
+        "values": {
+          "judge": 812434,
+          "judge_low": 779213,
+          "judge_high": 845656,
+          "valid": 1,
+          "bytes": 681
+        },
+        "display": {
+          "judge": "812434",
+          "judge_low": "779213",
+          "judge_high": "845656",
+          "valid": "1",
+          "bytes": "681"
+        },
+        "column_ranks": {
+          "judge": 4,
+          "judge_low": 4,
+          "judge_high": 4,
+          "valid": 1,
+          "bytes": 8
+        },
+        "cost": {
+          "micro_usd": "33370",
+          "priced_micro_usd": "33370",
+          "lines": 42,
+          "unpriced_lines": 0,
+          "partial_lines": 1,
+          "inconsistent_lines": 1,
+          "provenance": "agent-log"
+        },
+        "tokens": null,
+        "models": null,
+        "interval": {
+          "level": "0.900000000",
+          "low": "779213",
+          "high": "845656"
+        },
+        "rank_range": {
+          "best": 2,
+          "worst": 8
+        },
+        "pareto": false,
+        "hull": false,
+        "run_id": "01a1e9d7-647e-73b7-8b97-4d566e3900eb",
+        "result_sha256": "45c7e8d68fa075ee65b24fdf2e35ec359e8bf0e2575776a9824cb5f252c3078f",
+        "reproduced": false,
+        "judge": {
+          "wins": 7,
+          "draws": 5,
+          "losses": 3,
+          "matches": 15,
+          "finalist": false,
+          "provisional": true,
+          "artifact_sha256": "8dcbadb72fe3a0197bb1a9ce8eee5b0ba3864473b301ddee5e9b1a47578f01f5",
+          "artifact": {
+            "media": "text",
+            "url": "/api/submissions/01a1e9d5-26ab-73c0-a8b0-d407616e8cda/artifact.txt?phase=dev",
+            "preview_url": "/api/submissions/01a1e9d5-26ab-73c0-a8b0-d407616e8cda/artifact.txt?phase=dev&bytes=280",
+            "sha256": "8dcbadb72fe3a0197bb1a9ce8eee5b0ba3864473b301ddee5e9b1a47578f01f5"
+          }
+        },
+        "build_wall_ms": 213415,
+        "clone_url": "",
+        "served_by": null,
+        "origin_url": null,
+        "tie_runs": []
+      },
+      {
+        "rank": 5,
+        "ranks": {
+          "overall": 5,
+          "performance": 5,
+          "cost": null,
+          "efficiency": null
+        },
+        "prize_rank": 5,
+        "submission_id": "01a1e9d4-e50a-77a6-af07-31a091c05e59",
+        "handle": "timmyfknhenry",
+        "title": "A room after rain, nobody in a hurry",
+        "image": null,
+        "repo_url": "",
+        "commit_sha": "",
+        "source_withheld": true,
+        "received_at": "2026-11-17T14:06:46.015Z",
+        "baseline": false,
+        "house": false,
+        "internal": false,
+        "status": "finished",
+        "ranked": true,
+        "compliant": true,
+        "prize_eligible": true,
+        "efficiency_eligible": false,
+        "reasons": [
+          "partial_usage_lines"
+        ],
+        "efficiency_gaps": [
+          "partial_usage",
+          "partial_usage_lines"
+        ],
+        "values": {
+          "judge": 792334,
+          "judge_low": 757542,
+          "judge_high": 827126,
+          "valid": 1,
+          "bytes": 426
+        },
+        "display": {
+          "judge": "792334",
+          "judge_low": "757542",
+          "judge_high": "827126",
+          "valid": "1",
+          "bytes": "426"
+        },
+        "column_ranks": {
+          "judge": 5,
+          "judge_low": 5,
+          "judge_high": 5,
+          "valid": 1,
+          "bytes": 1
+        },
+        "cost": {
+          "micro_usd": "447667",
+          "priced_micro_usd": "447667",
+          "lines": 27,
+          "unpriced_lines": 0,
+          "partial_lines": 27,
+          "inconsistent_lines": 0,
+          "provenance": "agent-log"
+        },
+        "tokens": null,
+        "models": null,
+        "interval": {
+          "level": "0.900000000",
+          "low": "757542",
+          "high": "827126"
+        },
+        "rank_range": {
+          "best": 2,
+          "worst": 8
+        },
+        "pareto": false,
+        "hull": false,
+        "run_id": "01a1e9d5-5858-71dc-84d8-453bbfd03b57",
+        "result_sha256": "35a62e495833b07ff12925fcc1e33d0016aaf33de113446e2788df5aa853be83",
+        "reproduced": false,
+        "judge": {
+          "wins": 6,
+          "draws": 4,
+          "losses": 5,
+          "matches": 15,
+          "finalist": false,
+          "provisional": true,
+          "artifact_sha256": "b7035109d5628cfefb266b7084bf465cbee5c8f5de058a59e0216b520902d000",
+          "artifact": {
+            "media": "text",
+            "url": "/api/submissions/01a1e9d4-e50a-77a6-af07-31a091c05e59/artifact.txt?phase=dev",
+            "preview_url": "/api/submissions/01a1e9d4-e50a-77a6-af07-31a091c05e59/artifact.txt?phase=dev&bytes=280",
+            "sha256": "b7035109d5628cfefb266b7084bf465cbee5c8f5de058a59e0216b520902d000"
+          }
+        },
+        "build_wall_ms": 116950,
+        "clone_url": "",
+        "served_by": null,
+        "origin_url": null,
+        "tie_runs": []
+      },
+      {
+        "rank": 6,
+        "ranks": {
+          "overall": 6,
+          "performance": 6,
+          "cost": null,
+          "efficiency": null
+        },
+        "prize_rank": 6,
+        "submission_id": "01a1e9d3-87f3-72c1-a6d2-77a32b709337",
+        "handle": "tstore",
+        "title": "Still water at dawn",
+        "image": null,
+        "repo_url": "",
+        "commit_sha": "",
+        "source_withheld": true,
+        "received_at": "2026-11-17T14:05:16.632Z",
+        "baseline": false,
+        "house": false,
+        "internal": false,
+        "status": "finished",
+        "ranked": true,
+        "compliant": true,
+        "prize_eligible": true,
+        "efficiency_eligible": false,
+        "reasons": [
+          "partial_usage_lines"
+        ],
+        "efficiency_gaps": [
+          "partial_usage",
+          "partial_usage_lines"
+        ],
+        "values": {
+          "judge": 779534,
+          "judge_low": 743786,
+          "judge_high": 815282,
+          "valid": 1,
+          "bytes": 868
+        },
+        "display": {
+          "judge": "779534",
+          "judge_low": "743786",
+          "judge_high": "815282",
+          "valid": "1",
+          "bytes": "868"
+        },
+        "column_ranks": {
+          "judge": 6,
+          "judge_low": 6,
+          "judge_high": 6,
+          "valid": 1,
+          "bytes": 12
+        },
+        "cost": {
+          "micro_usd": "2723126",
+          "priced_micro_usd": "2723126",
+          "lines": 1,
+          "unpriced_lines": 0,
+          "partial_lines": 1,
+          "inconsistent_lines": 0,
+          "provenance": "agent-log"
+        },
+        "tokens": null,
+        "models": null,
+        "interval": {
+          "level": "0.900000000",
+          "low": "743786",
+          "high": "815282"
+        },
+        "rank_range": {
+          "best": 3,
+          "worst": 9
+        },
+        "pareto": false,
+        "hull": false,
+        "run_id": "01a1e9d5-c562-7561-969c-e10ad9df37a7",
+        "result_sha256": "8ab1b90746900859fb415324eec1ad8b35957667279fe6166103397c342db0ac",
+        "reproduced": false,
+        "judge": {
+          "wins": 6,
+          "draws": 5,
+          "losses": 4,
+          "matches": 15,
+          "finalist": false,
+          "provisional": true,
+          "artifact_sha256": "a3b162208e368fdef4634539ff22c518ebc5264712a843b5bc08528191bf2ad0",
+          "artifact": {
+            "media": "text",
+            "url": "/api/submissions/01a1e9d3-87f3-72c1-a6d2-77a32b709337/artifact.txt?phase=dev",
+            "preview_url": "/api/submissions/01a1e9d3-87f3-72c1-a6d2-77a32b709337/artifact.txt?phase=dev&bytes=280",
+            "sha256": "a3b162208e368fdef4634539ff22c518ebc5264712a843b5bc08528191bf2ad0"
+          }
+        },
+        "build_wall_ms": 100554,
+        "clone_url": "",
+        "served_by": null,
+        "origin_url": null,
+        "tie_runs": []
+      },
+      {
+        "rank": 7,
+        "ranks": {
+          "overall": 7,
+          "performance": 7,
+          "cost": null,
+          "efficiency": null
+        },
+        "prize_rank": 7,
+        "submission_id": "01a1e9d6-d4aa-7434-b551-5efef23e7f3b",
+        "handle": "brisk-walrus-71",
+        "title": "Harbour at Dusk",
+        "image": null,
+        "repo_url": "",
+        "commit_sha": "",
+        "source_withheld": true,
+        "received_at": "2026-11-17T14:08:52.896Z",
+        "baseline": false,
+        "house": false,
+        "internal": false,
+        "status": "finished",
+        "ranked": true,
+        "compliant": true,
+        "prize_eligible": true,
+        "efficiency_eligible": false,
+        "reasons": [
+          "partial_usage_lines"
+        ],
+        "efficiency_gaps": [
+          "partial_usage",
+          "partial_usage_lines"
+        ],
+        "values": {
+          "judge": 778058,
+          "judge_low": 742224,
+          "judge_high": 813892,
+          "valid": 1,
+          "bytes": 819
+        },
+        "display": {
+          "judge": "778058",
+          "judge_low": "742224",
+          "judge_high": "813892",
+          "valid": "1",
+          "bytes": "819"
+        },
+        "column_ranks": {
+          "judge": 7,
+          "judge_low": 7,
+          "judge_high": 7,
+          "valid": 1,
+          "bytes": 11
+        },
+        "cost": {
+          "micro_usd": "7743655",
+          "priced_micro_usd": "7743655",
+          "lines": 4,
+          "unpriced_lines": 0,
+          "partial_lines": 4,
+          "inconsistent_lines": 0,
+          "provenance": "agent-log"
+        },
+        "tokens": null,
+        "models": null,
+        "interval": {
+          "level": "0.900000000",
+          "low": "742224",
+          "high": "813892"
+        },
+        "rank_range": {
+          "best": 3,
+          "worst": 9
+        },
+        "pareto": false,
+        "hull": false,
+        "run_id": "01a1e9d8-f874-731c-9eb7-65d02655197a",
+        "result_sha256": "65cf7feee56926b60fd714fe019a203beb37216fba87f7ef54acac6bf1ad9470",
+        "reproduced": false,
+        "judge": {
+          "wins": 7,
+          "draws": 4,
+          "losses": 4,
+          "matches": 15,
+          "finalist": false,
+          "provisional": true,
+          "artifact_sha256": "3dfd8519d8e41b74da8c00bacf64737616eac348f0ed6533888d3767c82631a4",
+          "artifact": {
+            "media": "text",
+            "url": "/api/submissions/01a1e9d6-d4aa-7434-b551-5efef23e7f3b/artifact.txt?phase=dev",
+            "preview_url": "/api/submissions/01a1e9d6-d4aa-7434-b551-5efef23e7f3b/artifact.txt?phase=dev&bytes=280",
+            "sha256": "3dfd8519d8e41b74da8c00bacf64737616eac348f0ed6533888d3767c82631a4"
+          }
+        },
+        "build_wall_ms": 431493,
+        "clone_url": "",
+        "served_by": null,
+        "origin_url": null,
+        "tie_runs": []
+      },
+      {
+        "rank": 8,
+        "ranks": {
+          "overall": 8,
+          "performance": 8,
+          "cost": null,
+          "efficiency": null
+        },
+        "prize_rank": 8,
+        "submission_id": "01a1e9d5-60a3-76ce-bd7e-8bd9b1dd82d5",
+        "handle": "kiruntz",
+        "title": "Kiruntz The Porch",
+        "image": "https://avatars.githubusercontent.com/u/203127530?v=4",
+        "repo_url": "",
+        "commit_sha": "",
+        "source_withheld": true,
+        "received_at": "2026-11-17T14:07:17.651Z",
+        "baseline": false,
+        "house": false,
+        "internal": false,
+        "status": "finished",
+        "ranked": true,
+        "compliant": true,
+        "prize_eligible": true,
+        "efficiency_eligible": false,
+        "reasons": [
+          "partial_usage_lines"
+        ],
+        "efficiency_gaps": [
+          "partial_usage",
+          "partial_usage_lines"
+        ],
+        "values": {
+          "judge": 744374,
+          "judge_low": 706097,
+          "judge_high": 782651,
+          "valid": 1,
+          "bytes": 513
+        },
+        "display": {
+          "judge": "744374",
+          "judge_low": "706097",
+          "judge_high": "782651",
+          "valid": "1",
+          "bytes": "513"
+        },
+        "column_ranks": {
+          "judge": 8,
+          "judge_low": 8,
+          "judge_high": 8,
+          "valid": 1,
+          "bytes": 2
+        },
+        "cost": {
+          "micro_usd": "2020991",
+          "priced_micro_usd": "2020991",
+          "lines": 2,
+          "unpriced_lines": 0,
+          "partial_lines": 2,
+          "inconsistent_lines": 0,
+          "provenance": "agent-log"
+        },
+        "tokens": null,
+        "models": null,
+        "interval": {
+          "level": "0.900000000",
+          "low": "706097",
+          "high": "782651"
+        },
+        "rank_range": {
+          "best": 4,
+          "worst": 10
+        },
+        "pareto": false,
+        "hull": false,
+        "run_id": "01a1e9d6-fa2f-7559-b34b-a9cddb92acde",
+        "result_sha256": "776137f22da35431ed7bddca4ec16fd9f15eeb79f85cdf9b80ad1387dc771e10",
+        "reproduced": false,
+        "judge": {
+          "wins": 3,
+          "draws": 6,
+          "losses": 6,
+          "matches": 15,
+          "finalist": false,
+          "provisional": true,
+          "artifact_sha256": "01af94c949f4e34dcb692e5b669db3185e3f4803b840e0f3a84896370530a476",
+          "artifact": {
+            "media": "text",
+            "url": "/api/submissions/01a1e9d5-60a3-76ce-bd7e-8bd9b1dd82d5/artifact.txt?phase=dev",
+            "preview_url": "/api/submissions/01a1e9d5-60a3-76ce-bd7e-8bd9b1dd82d5/artifact.txt?phase=dev&bytes=280",
+            "sha256": "01af94c949f4e34dcb692e5b669db3185e3f4803b840e0f3a84896370530a476"
+          }
+        },
+        "build_wall_ms": 104983,
+        "clone_url": "",
+        "served_by": null,
+        "origin_url": null,
+        "tie_runs": []
+      },
+      {
+        "rank": 9,
+        "ranks": {
+          "overall": 9,
+          "performance": 9,
+          "cost": null,
+          "efficiency": null
+        },
+        "prize_rank": 9,
+        "submission_id": "01a1e9d1-7047-774e-bbb4-77888a30e998",
+        "handle": "powel",
+        "title": "Slack water: a moored boat at the turn of the tide",
+        "image": "/api/avatars/12bc90914f38a9d57cf597bcdc37b75ffbd4b57bf3a9170b3807dae2afc372fe.webp",
+        "repo_url": "",
+        "commit_sha": "",
+        "source_withheld": true,
+        "received_at": "2026-11-17T14:02:59.516Z",
+        "baseline": false,
+        "house": false,
+        "internal": false,
+        "status": "finished",
+        "ranked": true,
+        "compliant": true,
+        "prize_eligible": true,
+        "efficiency_eligible": false,
+        "reasons": [
+          "partial_usage_lines"
+        ],
+        "efficiency_gaps": [
+          "partial_usage",
+          "partial_usage_lines"
+        ],
+        "values": {
+          "judge": 716332,
+          "judge_low": 675979,
+          "judge_high": 756685,
+          "valid": 1,
+          "bytes": 697
+        },
+        "display": {
+          "judge": "716332",
+          "judge_low": "675979",
+          "judge_high": "756685",
+          "valid": "1",
+          "bytes": "697"
+        },
+        "column_ranks": {
+          "judge": 9,
+          "judge_low": 9,
+          "judge_high": 9,
+          "valid": 1,
+          "bytes": 9
+        },
+        "cost": {
+          "micro_usd": "531747",
+          "priced_micro_usd": "531747",
+          "lines": 1,
+          "unpriced_lines": 0,
+          "partial_lines": 1,
+          "inconsistent_lines": 0,
+          "provenance": "agent-log"
+        },
+        "tokens": null,
+        "models": null,
+        "interval": {
+          "level": "0.900000000",
+          "low": "675979",
+          "high": "756685"
+        },
+        "rank_range": {
+          "best": 6,
+          "worst": 11
+        },
+        "pareto": false,
+        "hull": false,
+        "run_id": "01a1e9d1-d1de-74fc-842a-3d0f001f3fa8",
+        "result_sha256": "6df82398ff54b96b7c073e46e0c4ca8b7bd2e7c50985bf2cc2e39a7cb57e3d91",
+        "reproduced": false,
+        "judge": {
+          "wins": 3,
+          "draws": 3,
+          "losses": 9,
+          "matches": 15,
+          "finalist": false,
+          "provisional": true,
+          "artifact_sha256": "27ccb231de63aa94cad520dabb094b8dff2cd88760011095c5b3a1fa473f4e29",
+          "artifact": {
+            "media": "text",
+            "url": "/api/submissions/01a1e9d1-7047-774e-bbb4-77888a30e998/artifact.txt?phase=dev",
+            "preview_url": "/api/submissions/01a1e9d1-7047-774e-bbb4-77888a30e998/artifact.txt?phase=dev&bytes=280",
+            "sha256": "27ccb231de63aa94cad520dabb094b8dff2cd88760011095c5b3a1fa473f4e29"
+          }
+        },
+        "build_wall_ms": 60327,
+        "clone_url": "",
+        "served_by": null,
+        "origin_url": null,
+        "tie_runs": []
+      },
+      {
+        "rank": 10,
+        "ranks": {
+          "overall": 10,
+          "performance": 10,
+          "cost": null,
+          "efficiency": null
+        },
+        "prize_rank": 10,
+        "submission_id": "01a1e9d9-6da9-75a6-8a2d-04118572cedf",
+        "handle": "plucky-marten-62",
+        "title": "A quiet room, one slow breath",
+        "image": "/api/avatars/f6d0520728a216d8d1911473b2f01f7882f63b3fe9c68684c51f795832e9f705.webp",
+        "repo_url": "",
+        "commit_sha": "",
+        "source_withheld": true,
+        "received_at": "2026-11-17T14:11:43.136Z",
+        "baseline": false,
+        "house": false,
+        "internal": false,
+        "status": "finished",
+        "ranked": true,
+        "compliant": true,
+        "prize_eligible": true,
+        "efficiency_eligible": true,
+        "reasons": [],
+        "efficiency_gaps": [],
+        "values": {
+          "judge": 665078,
+          "judge_low": 620405,
+          "judge_high": 709751,
+          "valid": 1,
+          "bytes": 809
+        },
+        "display": {
+          "judge": "665078",
+          "judge_low": "620405",
+          "judge_high": "709751",
+          "valid": "1",
+          "bytes": "809"
+        },
+        "column_ranks": {
+          "judge": 10,
+          "judge_low": 10,
+          "judge_high": 10,
+          "valid": 1,
+          "bytes": 10
+        },
+        "cost": {
+          "micro_usd": "11518",
+          "priced_micro_usd": "11518",
+          "lines": 13,
+          "unpriced_lines": 0,
+          "partial_lines": 0,
+          "inconsistent_lines": 0,
+          "provenance": "agent-log"
+        },
+        "tokens": null,
+        "models": null,
+        "interval": {
+          "level": "0.900000000",
+          "low": "620405",
+          "high": "709751"
+        },
+        "rank_range": {
+          "best": 8,
+          "worst": 12
+        },
+        "pareto": false,
+        "hull": false,
+        "run_id": "01a1e9d9-a61b-77d3-b607-1479c6c087a2",
+        "result_sha256": "8201f27a73e4430a5fd06566217d9c16d4ef5d746e7447a258bb6e007a78ca94",
+        "reproduced": false,
+        "judge": {
+          "wins": 4,
+          "draws": 0,
+          "losses": 11,
+          "matches": 15,
+          "finalist": false,
+          "provisional": true,
+          "artifact_sha256": "a2a35ca3fcc16c3497737a8872557fc28c3d45f10ab8ba9222cd5b776152fb92",
+          "artifact": {
+            "media": "text",
+            "url": "/api/submissions/01a1e9d9-6da9-75a6-8a2d-04118572cedf/artifact.txt?phase=dev",
+            "preview_url": "/api/submissions/01a1e9d9-6da9-75a6-8a2d-04118572cedf/artifact.txt?phase=dev&bytes=280",
+            "sha256": "a2a35ca3fcc16c3497737a8872557fc28c3d45f10ab8ba9222cd5b776152fb92"
+          }
+        },
+        "build_wall_ms": 110545,
+        "clone_url": "",
+        "served_by": null,
+        "origin_url": null,
+        "tie_runs": []
+      },
+      {
+        "rank": 11,
+        "ranks": {
+          "overall": 11,
+          "performance": 11,
+          "cost": null,
+          "efficiency": null
+        },
+        "prize_rank": 11,
+        "submission_id": "01a1e9d1-62a5-7183-b911-6a117b0ad3e8",
+        "handle": "wongkere",
+        "title": "Evening room: permission to stop",
+        "image": "/api/avatars/be33bea60b2c3385745c674aef1eaa4da54ec7c85ebda9c795b6af574038bd74.webp",
+        "repo_url": "",
+        "commit_sha": "",
+        "source_withheld": true,
+        "received_at": "2026-11-17T14:02:56.026Z",
+        "baseline": false,
+        "house": false,
+        "internal": false,
+        "status": "finished",
+        "ranked": true,
+        "compliant": true,
+        "prize_eligible": true,
+        "efficiency_eligible": true,
+        "reasons": [],
+        "efficiency_gaps": [],
+        "values": {
+          "judge": 645968,
+          "judge_low": 599934,
+          "judge_high": 692001,
+          "valid": 1,
+          "bytes": 572
+        },
+        "display": {
+          "judge": "645968",
+          "judge_low": "599934",
+          "judge_high": "692001",
+          "valid": "1",
+          "bytes": "572"
+        },
+        "column_ranks": {
+          "judge": 11,
+          "judge_low": 11,
+          "judge_high": 11,
+          "valid": 1,
+          "bytes": 4
+        },
+        "cost": {
+          "micro_usd": "0",
+          "priced_micro_usd": "0",
+          "lines": 8,
+          "unpriced_lines": 0,
+          "partial_lines": 0,
+          "inconsistent_lines": 0,
+          "provenance": "agent-log"
+        },
+        "tokens": null,
+        "models": null,
+        "interval": {
+          "level": "0.900000000",
+          "low": "599934",
+          "high": "692001"
+        },
+        "rank_range": {
+          "best": 9,
+          "worst": 12
+        },
+        "pareto": false,
+        "hull": false,
+        "run_id": "01a1e9d2-fe5d-72f5-af61-3f616add2995",
+        "result_sha256": "7ca37e2eba5b8a1b73687a0c449a2d227ef82df076c487bea87e4e2a0bb4e219",
+        "reproduced": false,
+        "judge": {
+          "wins": 2,
+          "draws": 0,
+          "losses": 13,
+          "matches": 15,
+          "finalist": false,
+          "provisional": true,
+          "artifact_sha256": "b5c5acabf6fdd100e72af93e92da5ab821d87b9540656b23a0688419c3b6034a",
+          "artifact": {
+            "media": "text",
+            "url": "/api/submissions/01a1e9d1-62a5-7183-b911-6a117b0ad3e8/artifact.txt?phase=dev",
+            "preview_url": "/api/submissions/01a1e9d1-62a5-7183-b911-6a117b0ad3e8/artifact.txt?phase=dev&bytes=280",
+            "sha256": "b5c5acabf6fdd100e72af93e92da5ab821d87b9540656b23a0688419c3b6034a"
+          }
+        },
+        "build_wall_ms": 48051,
+        "clone_url": "",
+        "served_by": null,
+        "origin_url": null,
+        "tie_runs": []
+      },
+      {
+        "rank": 12,
+        "ranks": {
+          "overall": 12,
+          "performance": 12,
+          "cost": null,
+          "efficiency": null
+        },
+        "prize_rank": 12,
+        "submission_id": "01a1e9d4-17f6-7183-a9b2-2865f7a4d75d",
+        "handle": "antoniw87",
+        "title": "Breathe in, slow and easy",
+        "image": "https://avatars.githubusercontent.com/u/116863224?v=4",
+        "repo_url": "",
+        "commit_sha": "",
+        "source_withheld": true,
+        "received_at": "2026-11-17T14:05:53.395Z",
+        "baseline": false,
+        "house": false,
+        "internal": false,
+        "status": "finished",
+        "ranked": true,
+        "compliant": true,
+        "prize_eligible": true,
+        "efficiency_eligible": false,
+        "reasons": [
+          "partial_usage_lines"
+        ],
+        "efficiency_gaps": [
+          "partial_usage",
+          "partial_usage_lines"
+        ],
+        "values": {
+          "judge": 606213,
+          "judge_low": 558169,
+          "judge_high": 654258,
+          "valid": 1,
+          "bytes": 662
+        },
+        "display": {
+          "judge": "606213",
+          "judge_low": "558169",
+          "judge_high": "654258",
+          "valid": "1",
+          "bytes": "662"
+        },
+        "column_ranks": {
+          "judge": 12,
+          "judge_low": 12,
+          "judge_high": 12,
+          "valid": 1,
+          "bytes": 5
+        },
+        "cost": {
+          "micro_usd": "962098",
+          "priced_micro_usd": "962098",
+          "lines": 1,
+          "unpriced_lines": 0,
+          "partial_lines": 1,
+          "inconsistent_lines": 0,
+          "provenance": "agent-log"
+        },
+        "tokens": null,
+        "models": null,
+        "interval": {
+          "level": "0.900000000",
+          "low": "558169",
+          "high": "654258"
+        },
+        "rank_range": {
+          "best": 10,
+          "worst": 12
+        },
+        "pareto": false,
+        "hull": false,
+        "run_id": "01a1e9d5-4792-7360-8641-45a3e44599e9",
+        "result_sha256": "9ce36caebaa4694fee5204338d347c31d87043ff2f92dbd350e3628cfd69c495",
+        "reproduced": false,
+        "judge": {
+          "wins": 6,
+          "draws": 0,
+          "losses": 9,
+          "matches": 15,
+          "finalist": false,
+          "provisional": true,
+          "artifact_sha256": "06c41f0f2d8790274418718d50422d0ee2a56385e0976ba33c46f802c23310c6",
+          "artifact": {
+            "media": "text",
+            "url": "/api/submissions/01a1e9d4-17f6-7183-a9b2-2865f7a4d75d/artifact.txt?phase=dev",
+            "preview_url": "/api/submissions/01a1e9d4-17f6-7183-a9b2-2865f7a4d75d/artifact.txt?phase=dev&bytes=280",
+            "sha256": "06c41f0f2d8790274418718d50422d0ee2a56385e0976ba33c46f802c23310c6"
+          }
+        },
+        "build_wall_ms": 68003,
+        "clone_url": "",
+        "served_by": null,
+        "origin_url": null,
+        "tie_runs": []
+      }
+    ]
+  },
+  "raw_archive_sha256": "30a748365974cb2bbd3feac998db1c678951b611315863163d3ef711e18b0331",
+  "note": "Inline competitor text omitted from published research; source URL/hash retained. Unmodified raw response archived in local work/public-artifacts/leaderboard-initial-raw.json."
+}

@@ -1,0 +1,242 @@
+[
+  {
+    "pair_id": "ranking-screen-a-next-001",
+    "a": "G01",
+    "b": "G02",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-002",
+    "a": "G03",
+    "b": "G04",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-003",
+    "a": "G05",
+    "b": "H01",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-004",
+    "a": "H02",
+    "b": "H03",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-005",
+    "a": "H04",
+    "b": "H05",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-006",
+    "a": "I01",
+    "b": "I02",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-007",
+    "a": "I03",
+    "b": "I04",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-008",
+    "a": "I05",
+    "b": "J01",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-009",
+    "a": "J02",
+    "b": "J03",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-010",
+    "a": "J04",
+    "b": "J05",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-011",
+    "a": "K01",
+    "b": "K02",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-012",
+    "a": "K03",
+    "b": "K04",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-013",
+    "a": "K05",
+    "b": "L01",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-014",
+    "a": "L02",
+    "b": "L03",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-015",
+    "a": "L04",
+    "b": "L05",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-016",
+    "a": "M01",
+    "b": "M02",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-017",
+    "a": "M03",
+    "b": "M04",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-018",
+    "a": "M05",
+    "b": "N01",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-019",
+    "a": "N02",
+    "b": "N03",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-020",
+    "a": "N04",
+    "b": "N05",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-021",
+    "a": "O01",
+    "b": "O02",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-022",
+    "a": "O03",
+    "b": "O04",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-023",
+    "a": "O05",
+    "b": "P01",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-024",
+    "a": "P02",
+    "b": "P03",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-025",
+    "a": "P04",
+    "b": "P05",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-026",
+    "a": "Q01",
+    "b": "Q02",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-027",
+    "a": "Q03",
+    "b": "Q04",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-028",
+    "a": "Q05",
+    "b": "R01",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-029",
+    "a": "R02",
+    "b": "R03",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-030",
+    "a": "R04",
+    "b": "R05",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-031",
+    "a": "PUB-408dd765dc",
+    "b": "PUB-5a44f3bb90",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-032",
+    "a": "PUB-508ec8f5e5",
+    "b": "PUB-ff56059cda",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-033",
+    "a": "PUB-252a6ffb9f",
+    "b": "PUB-5170df90b6",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-034",
+    "a": "PUB-0ada40eb1e",
+    "b": "PUB-c304b8bd20",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-035",
+    "a": "PUB-32557a6390",
+    "b": "PUB-c3445222ab",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-036",
+    "a": "PUB-040edcbcc4",
+    "b": "PUB-3ddb0b6fa7",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-037",
+    "a": "PUB-7e350869fe",
+    "b": "PUB-31192b5517",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-038",
+    "a": "G01",
+    "b": "PUB-175babbb26",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-039",
+    "a": "G02",
+    "b": "G03",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-screen-a-next-040",
+    "a": "G04",
+    "b": "G05",
+    "split": "development"
+  }
+]

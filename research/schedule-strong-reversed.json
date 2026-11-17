@@ -1,0 +1,614 @@
+[
+  {
+    "pair_id": "strong-076",
+    "a": "V05",
+    "b": "G01",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-008",
+    "a": "R05",
+    "b": "V04",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-019",
+    "a": "D09",
+    "b": "Q02",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-084",
+    "a": "K05",
+    "b": "M05",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-025",
+    "a": "H02",
+    "b": "L01",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-077",
+    "a": "K05",
+    "b": "V05",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-086",
+    "a": "M05",
+    "b": "B10",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-042",
+    "a": "D08",
+    "b": "M04",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-090",
+    "a": "N01",
+    "b": "F04",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-036",
+    "a": "V03",
+    "b": "M02",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-024",
+    "a": "Q02",
+    "b": "B03",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-046",
+    "a": "M04",
+    "b": "E08",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-038",
+    "a": "J02",
+    "b": "M02",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-003",
+    "a": "N01",
+    "b": "V01",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-012",
+    "a": "D09",
+    "b": "V01",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-033",
+    "a": "D08",
+    "b": "B03",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-066",
+    "a": "P01",
+    "b": "E02",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-041",
+    "a": "D08",
+    "b": "E08",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-080",
+    "a": "B10",
+    "b": "G01",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-040",
+    "a": "D08",
+    "b": "M02",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-071",
+    "a": "O04",
+    "b": "V05",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-parent-V02",
+    "a": "A10",
+    "b": "V02",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-035",
+    "a": "V03",
+    "b": "D08",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-061",
+    "a": "E01",
+    "b": "E02",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-parent-V01",
+    "a": "A10",
+    "b": "V01",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-011",
+    "a": "V01",
+    "b": "A08",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-063",
+    "a": "E01",
+    "b": "O04",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-023",
+    "a": "L01",
+    "b": "Q02",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-018",
+    "a": "A08",
+    "b": "H02",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-083",
+    "a": "K05",
+    "b": "F04",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-050",
+    "a": "A01",
+    "b": "M04",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-007",
+    "a": "V04",
+    "b": "V01",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-087",
+    "a": "C04",
+    "b": "B10",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-021",
+    "a": "D09",
+    "b": "L01",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-004",
+    "a": "A10",
+    "b": "V04",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-027",
+    "a": "V03",
+    "b": "H02",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-013",
+    "a": "A08",
+    "b": "R05",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-020",
+    "a": "D09",
+    "b": "H02",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-078",
+    "a": "V05",
+    "b": "B10",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-060",
+    "a": "V02",
+    "b": "I03",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-037",
+    "a": "D08",
+    "b": "J02",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-039",
+    "a": "E08",
+    "b": "J02",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-082",
+    "a": "K05",
+    "b": "B10",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-022",
+    "a": "Q02",
+    "b": "H02",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-068",
+    "a": "V02",
+    "b": "P01",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-009",
+    "a": "A08",
+    "b": "V04",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-055",
+    "a": "A01",
+    "b": "I03",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-093",
+    "a": "M05",
+    "b": "A10",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-092",
+    "a": "N01",
+    "b": "M05",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-069",
+    "a": "V05",
+    "b": "V02",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-088",
+    "a": "F04",
+    "b": "M05",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-096",
+    "a": "V04",
+    "b": "C04",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-016",
+    "a": "D09",
+    "b": "A08",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-085",
+    "a": "B10",
+    "b": "F04",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-049",
+    "a": "V06",
+    "b": "M04",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-029",
+    "a": "L01",
+    "b": "V03",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-parent-V05",
+    "a": "D09",
+    "b": "V05",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-parent-V06",
+    "a": "D09",
+    "b": "V06",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-073",
+    "a": "V05",
+    "b": "P01",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-028",
+    "a": "B03",
+    "b": "L01",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-043",
+    "a": "E08",
+    "b": "M02",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-089",
+    "a": "F04",
+    "b": "C04",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-045",
+    "a": "M02",
+    "b": "V06",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-062",
+    "a": "E01",
+    "b": "V02",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-057",
+    "a": "E02",
+    "b": "A01",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-091",
+    "a": "C04",
+    "b": "M05",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-044",
+    "a": "M04",
+    "b": "M02",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-052",
+    "a": "V06",
+    "b": "A01",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-053",
+    "a": "V06",
+    "b": "I03",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-054",
+    "a": "V06",
+    "b": "E01",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-059",
+    "a": "E02",
+    "b": "I03",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-030",
+    "a": "J02",
+    "b": "L01",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-081",
+    "a": "G01",
+    "b": "F04",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-047",
+    "a": "V06",
+    "b": "E08",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-015",
+    "a": "Q02",
+    "b": "R05",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-006",
+    "a": "R05",
+    "b": "A10",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-parent-V03",
+    "a": "V03",
+    "b": "E08",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-095",
+    "a": "C04",
+    "b": "A10",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-014",
+    "a": "D09",
+    "b": "R05",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-065",
+    "a": "E02",
+    "b": "O04",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-056",
+    "a": "A01",
+    "b": "E01",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-075",
+    "a": "P01",
+    "b": "K05",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-026",
+    "a": "H02",
+    "b": "B03",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-072",
+    "a": "O04",
+    "b": "G01",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-017",
+    "a": "A08",
+    "b": "Q02",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-048",
+    "a": "A01",
+    "b": "E08",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-058",
+    "a": "E01",
+    "b": "I03",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-051",
+    "a": "M04",
+    "b": "I03",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-094",
+    "a": "C04",
+    "b": "N01",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-070",
+    "a": "P01",
+    "b": "O04",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-067",
+    "a": "O04",
+    "b": "V02",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-064",
+    "a": "E02",
+    "b": "V02",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-031",
+    "a": "B03",
+    "b": "V03",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-002",
+    "a": "N01",
+    "b": "V04",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-parent-V04",
+    "a": "E08",
+    "b": "V04",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-034",
+    "a": "V03",
+    "b": "J02",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-074",
+    "a": "G01",
+    "b": "P01",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-032",
+    "a": "J02",
+    "b": "B03",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-079",
+    "a": "G01",
+    "b": "K05",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-010",
+    "a": "V01",
+    "b": "R05",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-001",
+    "a": "N01",
+    "b": "A10",
+    "split": "development"
+  },
+  {
+    "pair_id": "strong-005",
+    "a": "A10",
+    "b": "V01",
+    "split": "development"
+  }
+]

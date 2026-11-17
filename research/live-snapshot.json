@@ -1,0 +1,165 @@
+{
+  "retrieved_at": "2026-11-17T14:15:00.440835+00:00",
+  "url": "https://make.fun/api/competitions/ai-judge-relax-01/live",
+  "data": {
+    "competition": {
+      "slug": "ai-judge-relax-01",
+      "title": "Make the AI judge relax",
+      "status": "open",
+      "opens_at": "2026-11-17T14:00:00.000Z",
+      "deadline": "2026-11-18T14:00:00.000Z",
+      "resolved_at": null
+    },
+    "status": {
+      "sentence": "Entries are open until 2026-11-18 14:00 UTC.",
+      "expected_at": "2026-11-18T14:00:00.000Z",
+      "action": "Enter before 2026-11-18 14:00 UTC: GET /api/competitions/ai-judge-relax-01/requirements lists what an entry needs and, where the bounty names them, the prerequisites to check before you start."
+    },
+    "phase": {
+      "key": "submission",
+      "ranking_phase": "final",
+      "locked_at": null,
+      "finalized_at": null,
+      "hold": null
+    },
+    "automation": {
+      "step": "lock",
+      "reason": "The final phase is locked at the deadline, 2026-11-18 14:00 UTC",
+      "next_at": "2026-11-18T14:00:00.000Z",
+      "updated_at": "2026-11-17T10:19:35.580Z"
+    },
+    "reveal": null,
+    "commitment": null,
+    "frame": null,
+    "standings": {
+      "phase": "dev",
+      "scores_visible": true,
+      "placements_held": true,
+      "rank_key": "judge",
+      "rank_key_title": "Judge win rate",
+      "total": 9,
+      "rows": [
+        {
+          "rank": 1,
+          "submission_id": "01a1e9d3-235c-7616-af33-6483b4361747",
+          "handle": "xiinnq799-boop",
+          "title": "Rain thinning on a zinc roof",
+          "received_at": "2026-11-17T14:04:50.895Z",
+          "baseline": false,
+          "internal": false,
+          "status": "finished",
+          "ranked": true,
+          "value": 855136,
+          "display": "855136"
+        },
+        {
+          "rank": 2,
+          "submission_id": "01a1e9d5-26ab-73c0-a8b0-d407616e8cda",
+          "handle": "golden-coyote-11",
+          "title": "Quiet platform after the last train",
+          "received_at": "2026-11-17T14:07:02.687Z",
+          "baseline": false,
+          "internal": false,
+          "status": "finished",
+          "ranked": true,
+          "value": 812434,
+          "display": "812434"
+        },
+        {
+          "rank": 3,
+          "submission_id": "01a1e9d4-e50a-77a6-af07-31a091c05e59",
+          "handle": "timmyfknhenry",
+          "title": "A room after rain, nobody in a hurry",
+          "received_at": "2026-11-17T14:06:46.015Z",
+          "baseline": false,
+          "internal": false,
+          "status": "finished",
+          "ranked": true,
+          "value": 792334,
+          "display": "792334"
+        },
+        {
+          "rank": 4,
+          "submission_id": "01a1e9d3-87f3-72c1-a6d2-77a32b709337",
+          "handle": "tstore",
+          "title": "Still water at dawn",
+          "received_at": "2026-11-17T14:05:16.632Z",
+          "baseline": false,
+          "internal": false,
+          "status": "finished",
+          "ranked": true,
+          "value": 779534,
+          "display": "779534"
+        },
+        {
+          "rank": 5,
+          "submission_id": "01a1e9d5-60a3-76ce-bd7e-8bd9b1dd82d5",
+          "handle": "kiruntz",
+          "title": "Kiruntz The Porch",
+          "received_at": "2026-11-17T14:07:17.651Z",
+          "baseline": false,
+          "internal": false,
+          "status": "finished",
+          "ranked": true,
+          "value": 744374,
+          "display": "744374"
+        },
+        {
+          "rank": 6,
+          "submission_id": "01a1e9d1-7047-774e-bbb4-77888a30e998",
+          "handle": "powel",
+          "title": "Slack water: a moored boat at the turn of the tide",
+          "received_at": "2026-11-17T14:02:59.516Z",
+          "baseline": false,
+          "internal": false,
+          "status": "finished",
+          "ranked": true,
+          "value": 716332,
+          "display": "716332"
+        },
+        {
+          "rank": 7,
+          "submission_id": "01a1e9d6-8380-7054-9d5d-a923e17e3f5f",
+          "handle": "plucky-marten-62",
+          "title": "A quiet room, one slow breath",
+          "received_at": "2026-11-17T14:08:32.119Z",
+          "baseline": false,
+          "internal": false,
+          "status": "finished",
+          "ranked": true,
+          "value": 665078,
+          "display": "665078"
+        },
+        {
+          "rank": 8,
+          "submission_id": "01a1e9d1-62a5-7183-b911-6a117b0ad3e8",
+          "handle": "wongkere",
+          "title": "Evening room: permission to stop",
+          "received_at": "2026-11-17T14:02:56.026Z",
+          "baseline": false,
+          "internal": false,
+          "status": "finished",
+          "ranked": true,
+          "value": 645968,
+          "display": "645968"
+        },
+        {
+          "rank": 9,
+          "submission_id": "01a1e9d4-17f6-7183-a9b2-2865f7a4d75d",
+          "handle": "antoniw87",
+          "title": "Breathe in, slow and easy",
+          "received_at": "2026-11-17T14:05:53.395Z",
+          "baseline": false,
+          "internal": false,
+          "status": "finished",
+          "ranked": true,
+          "value": 606213,
+          "display": "606213"
+        }
+      ],
+      "leaderboard": "/api/competitions/ai-judge-relax-01/leaderboard?phase=dev&view=performance"
+    },
+    "judging": null,
+    "stream": "/api/competitions/ai-judge-relax-01/live/stream"
+  }
+}

@@ -1,0 +1,926 @@
+[
+  {
+    "pair_id": "fresh-013-r1",
+    "comparison_id": "fresh-013",
+    "a": "W019",
+    "b": "W001",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-059-r1",
+    "comparison_id": "fresh-059",
+    "a": "W007",
+    "b": "W004",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-052-r2",
+    "comparison_id": "fresh-052",
+    "a": "W006",
+    "b": "W004",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-048-r2",
+    "comparison_id": "fresh-048",
+    "a": "W002",
+    "b": "W004",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-012-r2",
+    "comparison_id": "fresh-012",
+    "a": "W014",
+    "b": "W001",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-001-r1",
+    "comparison_id": "fresh-001",
+    "a": "W001",
+    "b": "W017",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-029-r2",
+    "comparison_id": "fresh-029",
+    "a": "W020",
+    "b": "W017",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-064-r1",
+    "comparison_id": "fresh-064",
+    "a": "W004",
+    "b": "W022",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-063-r1",
+    "comparison_id": "fresh-063",
+    "a": "W004",
+    "b": "W015",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-051-r1",
+    "comparison_id": "fresh-051",
+    "a": "W023",
+    "b": "W004",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-055-r1",
+    "comparison_id": "fresh-055",
+    "a": "W004",
+    "b": "W019",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-062-r2",
+    "comparison_id": "fresh-062",
+    "a": "W008",
+    "b": "W004",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-001-r2",
+    "comparison_id": "fresh-001",
+    "a": "W017",
+    "b": "W001",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-037-r1",
+    "comparison_id": "fresh-037",
+    "a": "W017",
+    "b": "W013",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-058-r1",
+    "comparison_id": "fresh-058",
+    "a": "W013",
+    "b": "W004",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-036-r1",
+    "comparison_id": "fresh-036",
+    "a": "W003",
+    "b": "W017",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-023-r1",
+    "comparison_id": "fresh-023",
+    "a": "W001",
+    "b": "W018",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-033-r2",
+    "comparison_id": "fresh-033",
+    "a": "W017",
+    "b": "W014",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-037-r2",
+    "comparison_id": "fresh-037",
+    "a": "W013",
+    "b": "W017",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-065-r2",
+    "comparison_id": "fresh-065",
+    "a": "W004",
+    "b": "W018",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-056-r1",
+    "comparison_id": "fresh-056",
+    "a": "W009",
+    "b": "W004",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-027-r2",
+    "comparison_id": "fresh-027",
+    "a": "W002",
+    "b": "W017",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-019-r2",
+    "comparison_id": "fresh-019",
+    "a": "W012",
+    "b": "W001",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-006-r2",
+    "comparison_id": "fresh-006",
+    "a": "W002",
+    "b": "W001",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-045-r1",
+    "comparison_id": "fresh-045",
+    "a": "W017",
+    "b": "W010",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-022-r2",
+    "comparison_id": "fresh-022",
+    "a": "W022",
+    "b": "W001",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-062-r1",
+    "comparison_id": "fresh-062",
+    "a": "W004",
+    "b": "W008",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-057-r2",
+    "comparison_id": "fresh-057",
+    "a": "W003",
+    "b": "W004",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-004-r1",
+    "comparison_id": "fresh-004",
+    "a": "W021",
+    "b": "W001",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-018-r2",
+    "comparison_id": "fresh-018",
+    "a": "W001",
+    "b": "W024",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-010-r1",
+    "comparison_id": "fresh-010",
+    "a": "W006",
+    "b": "W001",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-035-r2",
+    "comparison_id": "fresh-035",
+    "a": "W017",
+    "b": "W009",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-047-r1",
+    "comparison_id": "fresh-047",
+    "a": "W005",
+    "b": "W004",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-014-r1",
+    "comparison_id": "fresh-014",
+    "a": "W009",
+    "b": "W001",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-041-r1",
+    "comparison_id": "fresh-041",
+    "a": "W008",
+    "b": "W017",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-021-r1",
+    "comparison_id": "fresh-021",
+    "a": "W001",
+    "b": "W015",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-063-r2",
+    "comparison_id": "fresh-063",
+    "a": "W015",
+    "b": "W004",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-017-r1",
+    "comparison_id": "fresh-017",
+    "a": "W007",
+    "b": "W001",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-034-r1",
+    "comparison_id": "fresh-034",
+    "a": "W017",
+    "b": "W019",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-066-r2",
+    "comparison_id": "fresh-066",
+    "a": "W004",
+    "b": "W010",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-057-r1",
+    "comparison_id": "fresh-057",
+    "a": "W004",
+    "b": "W003",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-042-r2",
+    "comparison_id": "fresh-042",
+    "a": "W017",
+    "b": "W015",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-016-r1",
+    "comparison_id": "fresh-016",
+    "a": "W013",
+    "b": "W001",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-031-r1",
+    "comparison_id": "fresh-031",
+    "a": "W006",
+    "b": "W017",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-015-r1",
+    "comparison_id": "fresh-015",
+    "a": "W001",
+    "b": "W003",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-026-r2",
+    "comparison_id": "fresh-026",
+    "a": "W005",
+    "b": "W017",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-054-r2",
+    "comparison_id": "fresh-054",
+    "a": "W004",
+    "b": "W014",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-030-r2",
+    "comparison_id": "fresh-030",
+    "a": "W017",
+    "b": "W023",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-017-r2",
+    "comparison_id": "fresh-017",
+    "a": "W001",
+    "b": "W007",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-006-r1",
+    "comparison_id": "fresh-006",
+    "a": "W001",
+    "b": "W002",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-035-r1",
+    "comparison_id": "fresh-035",
+    "a": "W009",
+    "b": "W017",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-032-r2",
+    "comparison_id": "fresh-032",
+    "a": "W017",
+    "b": "W011",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-038-r2",
+    "comparison_id": "fresh-038",
+    "a": "W007",
+    "b": "W017",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-059-r2",
+    "comparison_id": "fresh-059",
+    "a": "W004",
+    "b": "W007",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-056-r2",
+    "comparison_id": "fresh-056",
+    "a": "W004",
+    "b": "W009",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-030-r1",
+    "comparison_id": "fresh-030",
+    "a": "W023",
+    "b": "W017",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-009-r2",
+    "comparison_id": "fresh-009",
+    "a": "W023",
+    "b": "W001",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-050-r2",
+    "comparison_id": "fresh-050",
+    "a": "W004",
+    "b": "W020",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-020-r1",
+    "comparison_id": "fresh-020",
+    "a": "W008",
+    "b": "W001",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-038-r1",
+    "comparison_id": "fresh-038",
+    "a": "W017",
+    "b": "W007",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-008-r2",
+    "comparison_id": "fresh-008",
+    "a": "W020",
+    "b": "W001",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-007-r2",
+    "comparison_id": "fresh-007",
+    "a": "W016",
+    "b": "W001",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-039-r2",
+    "comparison_id": "fresh-039",
+    "a": "W024",
+    "b": "W017",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-033-r1",
+    "comparison_id": "fresh-033",
+    "a": "W014",
+    "b": "W017",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-040-r2",
+    "comparison_id": "fresh-040",
+    "a": "W012",
+    "b": "W017",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-024-r1",
+    "comparison_id": "fresh-024",
+    "a": "W001",
+    "b": "W010",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-060-r2",
+    "comparison_id": "fresh-060",
+    "a": "W024",
+    "b": "W004",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-043-r1",
+    "comparison_id": "fresh-043",
+    "a": "W022",
+    "b": "W017",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-058-r2",
+    "comparison_id": "fresh-058",
+    "a": "W004",
+    "b": "W013",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-009-r1",
+    "comparison_id": "fresh-009",
+    "a": "W001",
+    "b": "W023",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-005-r1",
+    "comparison_id": "fresh-005",
+    "a": "W001",
+    "b": "W005",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-020-r2",
+    "comparison_id": "fresh-020",
+    "a": "W001",
+    "b": "W008",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-002-r1",
+    "comparison_id": "fresh-002",
+    "a": "W001",
+    "b": "W004",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-034-r2",
+    "comparison_id": "fresh-034",
+    "a": "W019",
+    "b": "W017",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-047-r2",
+    "comparison_id": "fresh-047",
+    "a": "W004",
+    "b": "W005",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-061-r2",
+    "comparison_id": "fresh-061",
+    "a": "W004",
+    "b": "W012",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-005-r2",
+    "comparison_id": "fresh-005",
+    "a": "W005",
+    "b": "W001",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-051-r2",
+    "comparison_id": "fresh-051",
+    "a": "W004",
+    "b": "W023",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-054-r1",
+    "comparison_id": "fresh-054",
+    "a": "W014",
+    "b": "W004",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-046-r1",
+    "comparison_id": "fresh-046",
+    "a": "W021",
+    "b": "W004",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-039-r1",
+    "comparison_id": "fresh-039",
+    "a": "W017",
+    "b": "W024",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-049-r1",
+    "comparison_id": "fresh-049",
+    "a": "W004",
+    "b": "W016",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-050-r1",
+    "comparison_id": "fresh-050",
+    "a": "W020",
+    "b": "W004",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-044-r2",
+    "comparison_id": "fresh-044",
+    "a": "W017",
+    "b": "W018",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-004-r2",
+    "comparison_id": "fresh-004",
+    "a": "W001",
+    "b": "W021",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-025-r1",
+    "comparison_id": "fresh-025",
+    "a": "W021",
+    "b": "W017",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-021-r2",
+    "comparison_id": "fresh-021",
+    "a": "W015",
+    "b": "W001",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-045-r2",
+    "comparison_id": "fresh-045",
+    "a": "W010",
+    "b": "W017",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-023-r2",
+    "comparison_id": "fresh-023",
+    "a": "W018",
+    "b": "W001",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-008-r1",
+    "comparison_id": "fresh-008",
+    "a": "W001",
+    "b": "W020",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-066-r1",
+    "comparison_id": "fresh-066",
+    "a": "W010",
+    "b": "W004",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-025-r2",
+    "comparison_id": "fresh-025",
+    "a": "W017",
+    "b": "W021",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-049-r2",
+    "comparison_id": "fresh-049",
+    "a": "W016",
+    "b": "W004",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-003-r1",
+    "comparison_id": "fresh-003",
+    "a": "W004",
+    "b": "W017",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-013-r2",
+    "comparison_id": "fresh-013",
+    "a": "W001",
+    "b": "W019",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-029-r1",
+    "comparison_id": "fresh-029",
+    "a": "W017",
+    "b": "W020",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-048-r1",
+    "comparison_id": "fresh-048",
+    "a": "W004",
+    "b": "W002",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-002-r2",
+    "comparison_id": "fresh-002",
+    "a": "W004",
+    "b": "W001",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-036-r2",
+    "comparison_id": "fresh-036",
+    "a": "W017",
+    "b": "W003",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-031-r2",
+    "comparison_id": "fresh-031",
+    "a": "W017",
+    "b": "W006",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-010-r2",
+    "comparison_id": "fresh-010",
+    "a": "W001",
+    "b": "W006",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-040-r1",
+    "comparison_id": "fresh-040",
+    "a": "W017",
+    "b": "W012",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-011-r2",
+    "comparison_id": "fresh-011",
+    "a": "W011",
+    "b": "W001",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-018-r1",
+    "comparison_id": "fresh-018",
+    "a": "W024",
+    "b": "W001",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-053-r1",
+    "comparison_id": "fresh-053",
+    "a": "W011",
+    "b": "W004",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-046-r2",
+    "comparison_id": "fresh-046",
+    "a": "W004",
+    "b": "W021",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-032-r1",
+    "comparison_id": "fresh-032",
+    "a": "W011",
+    "b": "W017",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-052-r1",
+    "comparison_id": "fresh-052",
+    "a": "W004",
+    "b": "W006",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-065-r1",
+    "comparison_id": "fresh-065",
+    "a": "W018",
+    "b": "W004",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-064-r2",
+    "comparison_id": "fresh-064",
+    "a": "W022",
+    "b": "W004",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-022-r1",
+    "comparison_id": "fresh-022",
+    "a": "W001",
+    "b": "W022",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-053-r2",
+    "comparison_id": "fresh-053",
+    "a": "W004",
+    "b": "W011",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-024-r2",
+    "comparison_id": "fresh-024",
+    "a": "W010",
+    "b": "W001",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-061-r1",
+    "comparison_id": "fresh-061",
+    "a": "W012",
+    "b": "W004",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-014-r2",
+    "comparison_id": "fresh-014",
+    "a": "W001",
+    "b": "W009",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-028-r2",
+    "comparison_id": "fresh-028",
+    "a": "W017",
+    "b": "W016",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-055-r2",
+    "comparison_id": "fresh-055",
+    "a": "W019",
+    "b": "W004",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-041-r2",
+    "comparison_id": "fresh-041",
+    "a": "W017",
+    "b": "W008",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-043-r2",
+    "comparison_id": "fresh-043",
+    "a": "W017",
+    "b": "W022",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-060-r1",
+    "comparison_id": "fresh-060",
+    "a": "W004",
+    "b": "W024",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-015-r2",
+    "comparison_id": "fresh-015",
+    "a": "W003",
+    "b": "W001",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-011-r1",
+    "comparison_id": "fresh-011",
+    "a": "W001",
+    "b": "W011",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-026-r1",
+    "comparison_id": "fresh-026",
+    "a": "W017",
+    "b": "W005",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-007-r1",
+    "comparison_id": "fresh-007",
+    "a": "W001",
+    "b": "W016",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-019-r1",
+    "comparison_id": "fresh-019",
+    "a": "W001",
+    "b": "W012",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-042-r1",
+    "comparison_id": "fresh-042",
+    "a": "W015",
+    "b": "W017",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-003-r2",
+    "comparison_id": "fresh-003",
+    "a": "W017",
+    "b": "W004",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-028-r1",
+    "comparison_id": "fresh-028",
+    "a": "W016",
+    "b": "W017",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-027-r1",
+    "comparison_id": "fresh-027",
+    "a": "W017",
+    "b": "W002",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-044-r1",
+    "comparison_id": "fresh-044",
+    "a": "W018",
+    "b": "W017",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-016-r2",
+    "comparison_id": "fresh-016",
+    "a": "W001",
+    "b": "W013",
+    "split": "fresh_held_out"
+  },
+  {
+    "pair_id": "fresh-012-r1",
+    "comparison_id": "fresh-012",
+    "a": "W001",
+    "b": "W014",
+    "split": "fresh_held_out"
+  }
+]

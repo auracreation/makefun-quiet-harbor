@@ -1,0 +1,242 @@
+[
+  {
+    "pair_id": "ranking-initial-next-001",
+    "a": "E05",
+    "b": "D07",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-002",
+    "a": "B08",
+    "b": "A05",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-003",
+    "a": "A01",
+    "b": "A07",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-004",
+    "a": "E03",
+    "b": "A04",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-005",
+    "a": "B04",
+    "b": "E02",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-006",
+    "a": "F06",
+    "b": "C05",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-007",
+    "a": "A02",
+    "b": "F04",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-008",
+    "a": "A06",
+    "b": "B09",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-009",
+    "a": "C09",
+    "b": "E07",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-010",
+    "a": "D01",
+    "b": "D02",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-011",
+    "a": "C08",
+    "b": "D04",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-012",
+    "a": "F07",
+    "b": "B06",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-013",
+    "a": "E01",
+    "b": "A10",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-014",
+    "a": "C04",
+    "b": "A09",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-015",
+    "a": "D09",
+    "b": "A08",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-016",
+    "a": "D06",
+    "b": "B07",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-017",
+    "a": "F02",
+    "b": "D05",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-018",
+    "a": "B03",
+    "b": "B10",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-019",
+    "a": "F09",
+    "b": "F03",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-020",
+    "a": "E09",
+    "b": "D08",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-021",
+    "a": "C10",
+    "b": "D10",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-022",
+    "a": "D03",
+    "b": "F08",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-023",
+    "a": "C02",
+    "b": "F05",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-024",
+    "a": "C03",
+    "b": "B02",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-025",
+    "a": "A03",
+    "b": "F01",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-026",
+    "a": "B01",
+    "b": "E06",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-027",
+    "a": "E10",
+    "b": "B05",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-028",
+    "a": "C07",
+    "b": "F10",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-029",
+    "a": "C01",
+    "b": "C06",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-030",
+    "a": "E08",
+    "b": "E04",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-031",
+    "a": "B01",
+    "b": "B08",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-032",
+    "a": "C01",
+    "b": "C09",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-033",
+    "a": "B10",
+    "b": "A02",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-034",
+    "a": "C07",
+    "b": "A06",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-035",
+    "a": "C05",
+    "b": "F09",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-036",
+    "a": "F08",
+    "b": "F06",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-037",
+    "a": "B07",
+    "b": "D03",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-038",
+    "a": "C03",
+    "b": "C08",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-039",
+    "a": "D02",
+    "b": "F05",
+    "split": "development"
+  },
+  {
+    "pair_id": "ranking-initial-next-040",
+    "a": "C02",
+    "b": "D01",
+    "split": "development"
+  }
+]

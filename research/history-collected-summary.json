@@ -1,0 +1,388 @@
+{
+  "retrieved_at": "2026-11-17T14:16:21.056630+00:00",
+  "url": "https://make.fun/api/competitions/ai-judge-relax-01/standings/history?phase=dev",
+  "raw_path": "work/public-artifacts/history-2026-11-17T14-16-21.056630+00-00.json",
+  "raw_sha256": "cc74a9c85173f0b7875c4a262def1952b9c76b7745cff2132635019a4ea83d55",
+  "data": {
+    "phase": {
+      "key": "dev",
+      "starts_at": "2026-11-17T14:00:00.000Z",
+      "ends_at": "2026-11-18T14:00:00.000Z",
+      "scores_visible": true
+    },
+    "at_ms": [
+      1794924193756,
+      1794924204215,
+      1794924231132,
+      1794924309113,
+      1794924334375,
+      1794924370311,
+      1794924435501,
+      1794924439110,
+      1794924454905,
+      1794924527893
+    ],
+    "lines": [
+      {
+        "submission_id": "01a1e9d3-235c-7616-af33-6483b4361747",
+        "handle": "xiinnq799-boop",
+        "title": "Rain thinning on a zinc roof",
+        "image": "https://avatars.githubusercontent.com/u/356823568?v=4",
+        "you": false,
+        "place": 1,
+        "rank": 1,
+        "display": "85.5%",
+        "artifact": {
+          "media": "text",
+          "url": "/api/submissions/01a1e9d3-235c-7616-af33-6483b4361747/artifact.txt?phase=dev",
+          "preview_url": "/api/submissions/01a1e9d3-235c-7616-af33-6483b4361747/artifact.txt?phase=dev&bytes=280",
+          "sha256": "b5c2e47a4caac44ab56d084ec09ecf7d4cefbbc695feeba5a02a21f8dfaa1786"
+        },
+        "places": [
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "ranks": [
+          null,
+          null,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "submission_id": "01a1e9d5-26ab-73c0-a8b0-d407616e8cda",
+        "handle": "golden-coyote-11",
+        "title": "Quiet platform after the last train",
+        "image": null,
+        "you": false,
+        "place": 2,
+        "rank": 2,
+        "display": "81.2%",
+        "artifact": {
+          "media": "text",
+          "url": "/api/submissions/01a1e9d5-26ab-73c0-a8b0-d407616e8cda/artifact.txt?phase=dev",
+          "preview_url": "/api/submissions/01a1e9d5-26ab-73c0-a8b0-d407616e8cda/artifact.txt?phase=dev&bytes=280",
+          "sha256": "8dcbadb72fe3a0197bb1a9ce8eee5b0ba3864473b301ddee5e9b1a47578f01f5"
+        },
+        "places": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          2,
+          2,
+          2
+        ],
+        "ranks": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "submission_id": "01a1e9d4-e50a-77a6-af07-31a091c05e59",
+        "handle": "timmyfknhenry",
+        "title": "A room after rain, nobody in a hurry",
+        "image": null,
+        "you": false,
+        "place": 3,
+        "rank": 3,
+        "display": "79.2%",
+        "artifact": {
+          "media": "text",
+          "url": "/api/submissions/01a1e9d4-e50a-77a6-af07-31a091c05e59/artifact.txt?phase=dev",
+          "preview_url": "/api/submissions/01a1e9d4-e50a-77a6-af07-31a091c05e59/artifact.txt?phase=dev&bytes=280",
+          "sha256": "b7035109d5628cfefb266b7084bf465cbee5c8f5de058a59e0216b520902d000"
+        },
+        "places": [
+          null,
+          null,
+          1,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3
+        ],
+        "ranks": [
+          null,
+          null,
+          1,
+          2,
+          2,
+          2,
+          2,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "submission_id": "01a1e9d3-87f3-72c1-a6d2-77a32b709337",
+        "handle": "tstore",
+        "title": "Still water at dawn",
+        "image": null,
+        "you": false,
+        "place": 4,
+        "rank": 4,
+        "display": "78.0%",
+        "artifact": {
+          "media": "text",
+          "url": "/api/submissions/01a1e9d3-87f3-72c1-a6d2-77a32b709337/artifact.txt?phase=dev",
+          "preview_url": "/api/submissions/01a1e9d3-87f3-72c1-a6d2-77a32b709337/artifact.txt?phase=dev&bytes=280",
+          "sha256": "a3b162208e368fdef4634539ff22c518ebc5264712a843b5bc08528191bf2ad0"
+        },
+        "places": [
+          null,
+          null,
+          null,
+          null,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4
+        ],
+        "ranks": [
+          null,
+          null,
+          null,
+          null,
+          3,
+          3,
+          3,
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "submission_id": "01a1e9d5-60a3-76ce-bd7e-8bd9b1dd82d5",
+        "handle": "kiruntz",
+        "title": "Kiruntz The Porch",
+        "image": "https://avatars.githubusercontent.com/u/203127530?v=4",
+        "you": false,
+        "place": 5,
+        "rank": 5,
+        "display": "74.4%",
+        "artifact": {
+          "media": "text",
+          "url": "/api/submissions/01a1e9d5-60a3-76ce-bd7e-8bd9b1dd82d5/artifact.txt?phase=dev",
+          "preview_url": "/api/submissions/01a1e9d5-60a3-76ce-bd7e-8bd9b1dd82d5/artifact.txt?phase=dev&bytes=280",
+          "sha256": "01af94c949f4e34dcb692e5b669db3185e3f4803b840e0f3a84896370530a476"
+        },
+        "places": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          5,
+          5
+        ],
+        "ranks": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          5,
+          5
+        ]
+      },
+      {
+        "submission_id": "01a1e9d1-7047-774e-bbb4-77888a30e998",
+        "handle": "powel",
+        "title": "Slack water: a moored boat at the turn of the tide",
+        "image": "/api/avatars/12bc90914f38a9d57cf597bcdc37b75ffbd4b57bf3a9170b3807dae2afc372fe.webp",
+        "you": false,
+        "place": 6,
+        "rank": 6,
+        "display": "71.6%",
+        "artifact": {
+          "media": "text",
+          "url": "/api/submissions/01a1e9d1-7047-774e-bbb4-77888a30e998/artifact.txt?phase=dev",
+          "preview_url": "/api/submissions/01a1e9d1-7047-774e-bbb4-77888a30e998/artifact.txt?phase=dev&bytes=280",
+          "sha256": "27ccb231de63aa94cad520dabb094b8dff2cd88760011095c5b3a1fa473f4e29"
+        },
+        "places": [
+          null,
+          1,
+          2,
+          3,
+          4,
+          4,
+          4,
+          5,
+          6,
+          6
+        ],
+        "ranks": [
+          null,
+          1,
+          2,
+          3,
+          4,
+          4,
+          4,
+          5,
+          6,
+          6
+        ]
+      },
+      {
+        "submission_id": "01a1e9d6-8380-7054-9d5d-a923e17e3f5f",
+        "handle": "plucky-marten-62",
+        "title": "A quiet room, one slow breath",
+        "image": "/api/avatars/f6d0520728a216d8d1911473b2f01f7882f63b3fe9c68684c51f795832e9f705.webp",
+        "you": false,
+        "place": 7,
+        "rank": 7,
+        "display": "66.5%",
+        "artifact": {
+          "media": "text",
+          "url": "/api/submissions/01a1e9d6-8380-7054-9d5d-a923e17e3f5f/artifact.txt?phase=dev",
+          "preview_url": "/api/submissions/01a1e9d6-8380-7054-9d5d-a923e17e3f5f/artifact.txt?phase=dev&bytes=280",
+          "sha256": "a2a35ca3fcc16c3497737a8872557fc28c3d45f10ab8ba9222cd5b776152fb92"
+        },
+        "places": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          7
+        ],
+        "ranks": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          null,
+          7
+        ]
+      },
+      {
+        "submission_id": "01a1e9d1-62a5-7183-b911-6a117b0ad3e8",
+        "handle": "wongkere",
+        "title": "Evening room: permission to stop",
+        "image": "/api/avatars/be33bea60b2c3385745c674aef1eaa4da54ec7c85ebda9c795b6af574038bd74.webp",
+        "you": false,
+        "place": 8,
+        "rank": 8,
+        "display": "64.6%",
+        "artifact": {
+          "media": "text",
+          "url": "/api/submissions/01a1e9d1-62a5-7183-b911-6a117b0ad3e8/artifact.txt?phase=dev",
+          "preview_url": "/api/submissions/01a1e9d1-62a5-7183-b911-6a117b0ad3e8/artifact.txt?phase=dev&bytes=280",
+          "sha256": "b5c5acabf6fdd100e72af93e92da5ab821d87b9540656b23a0688419c3b6034a"
+        },
+        "places": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          5,
+          5,
+          6,
+          7,
+          8
+        ],
+        "ranks": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          5,
+          5,
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "submission_id": "01a1e9d4-17f6-7183-a9b2-2865f7a4d75d",
+        "handle": "antoniw87",
+        "title": "Breathe in, slow and easy",
+        "image": "https://avatars.githubusercontent.com/u/116863224?v=4",
+        "you": false,
+        "place": 9,
+        "rank": 9,
+        "display": "60.6%",
+        "artifact": {
+          "media": "text",
+          "url": "/api/submissions/01a1e9d4-17f6-7183-a9b2-2865f7a4d75d/artifact.txt?phase=dev",
+          "preview_url": "/api/submissions/01a1e9d4-17f6-7183-a9b2-2865f7a4d75d/artifact.txt?phase=dev&bytes=280",
+          "sha256": "06c41f0f2d8790274418718d50422d0ee2a56385e0976ba33c46f802c23310c6"
+        },
+        "places": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          6,
+          6,
+          7,
+          8,
+          9
+        ],
+        "ranks": [
+          null,
+          null,
+          null,
+          null,
+          null,
+          6,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    ]
+  }
+}

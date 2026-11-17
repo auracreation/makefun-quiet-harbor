@@ -1,0 +1,22 @@
+{
+  "ids": [
+    "R05",
+    "M05",
+    "E08",
+    "B10",
+    "A01",
+    "B03",
+    "D09",
+    "L01",
+    "M02",
+    "E01",
+    "A10",
+    "D08",
+    "J02",
+    "M04",
+    "E02",
+    "A08"
+  ],
+  "basis": "regularized BT after two public-opponent games per original; no irreversible elimination; first60 also have two original-opponent games",
+  "stage": "development"
+}

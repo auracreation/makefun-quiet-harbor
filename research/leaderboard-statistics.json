@@ -1,0 +1,36 @@
+{
+  "retrieved_at": "2026-11-17T14:16:20.080714+00:00",
+  "entrants": 21,
+  "highest_rate_micro": 875946,
+  "median_rate_micro": 716332,
+  "first_second_gap_micro": 20810,
+  "first_second_gap_percentage_points": "2.081",
+  "top_n": {
+    "3": {
+      "cutoff_rate_micro": 845849,
+      "mean_rate_micro": "858977"
+    },
+    "5": {
+      "cutoff_rate_micro": 812434,
+      "mean_rate_micro": "841035.2"
+    },
+    "10": {
+      "cutoff_rate_micro": 722499,
+      "mean_rate_micro": "802197.5"
+    }
+  },
+  "length_characters": {
+    "min": 345,
+    "q1": 584.0,
+    "median": 674,
+    "q3": 695.0,
+    "max": 868,
+    "mean": 653.6190476190476
+  },
+  "pearson_characters_rate": -0.1452182204923343,
+  "spearman_characters_rate": -0.2189734055500096,
+  "all_artifact_hashes_verified": true,
+  "observations": 33,
+  "unique_artifacts": 22,
+  "raw_artifacts_directory": "work/public-artifacts"
+}

@@ -1,0 +1,67 @@
+{
+  "retrieved_at": "2026-11-17T15:16:07.088645+00:00",
+  "source": "https://make.fun/api/competitions/ai-judge-relax-01/leaderboard?phase=dev&view=performance&rows=all",
+  "rows": 104,
+  "top10": [
+    {
+      "rank": 1,
+      "handle": "amrusalim",
+      "rate_percent": 90.3346,
+      "submission_id": "01a1e9db-2a6b-74a3-973d-27e1ae397280"
+    },
+    {
+      "rank": 2,
+      "handle": "bagus63",
+      "rate_percent": 88.3436,
+      "submission_id": "01a1ea08-edd9-7233-9192-07ab5f303d10"
+    },
+    {
+      "rank": 3,
+      "handle": "aurelly-claudia",
+      "rate_percent": 88.0368,
+      "submission_id": "01a1ea06-7c1b-74db-b2e9-e375d836cf36"
+    },
+    {
+      "rank": 4,
+      "handle": "tuan-le",
+      "rate_percent": 86.0025,
+      "submission_id": "01a1e9d9-f86c-7413-9f34-c1e36ef6a7fb"
+    },
+    {
+      "rank": 5,
+      "handle": "emu-builds",
+      "rate_percent": 85.932,
+      "submission_id": "01a1e9d9-8c1a-76e2-abee-281fa0051b9e"
+    },
+    {
+      "rank": 6,
+      "handle": "wlowichot",
+      "rate_percent": 85.6315,
+      "submission_id": "01a1e9e7-d4f6-7309-8cd3-2cbef243950a"
+    },
+    {
+      "rank": 7,
+      "handle": "mnc",
+      "rate_percent": 85.247,
+      "submission_id": "01a1e9df-9f2b-7370-9e96-62d75a8e3d60"
+    },
+    {
+      "rank": 8,
+      "handle": "crisp-tapir-32",
+      "rate_percent": 85.0274,
+      "submission_id": "01a1ea06-ff37-762d-adcd-5222a09f401b"
+    },
+    {
+      "rank": 9,
+      "handle": "patrickslur",
+      "rate_percent": 84.4203,
+      "submission_id": "01a1e9fb-516d-715b-bdf2-302cfb263c2c"
+    },
+    {
+      "rank": 10,
+      "handle": "rapid-panda-66",
+      "rate_percent": 84.2085,
+      "submission_id": "01a1e9d6-842c-74d7-b72e-b6cab1ebd79d"
+    }
+  ]
+}

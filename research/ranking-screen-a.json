@@ -1,0 +1,3047 @@
+{
+  "label": "Codex agent proxy; not GLM, official practice, or final performance",
+  "method": "Fractional Bradley\u2013Terry with L2=.25; two reversed opinions per game; Elo K=20 in recorded order",
+  "limitations": [
+    "Each reviewer supplies many judgments in one context; judgments are correlated.",
+    "Different reviewers see reversed order: position and reviewer effects are confounded.",
+    "Wilson and pair-cluster bootstrap intervals are descriptive, not calibrated GLM probability bounds.",
+    "Bootstrap resamples pair games; sparse or disconnected samples are stabilized by the stated prior.",
+    "Candidate selection uses development data; fresh held-out comparisons remain necessary."
+  ],
+  "bootstrap": {
+    "replicates": 200,
+    "seed": 1154652979,
+    "unit": "complete pair game"
+  },
+  "external_api_cost_usd": 0,
+  "complete_games": 180,
+  "valid_opinions": 360,
+  "rejected_games": [],
+  "position_bias": {
+    "overall_A_win_share": 0.49444444444444446,
+    "by_reviewer_A_win_share": {
+      "proxy_judge_one": 0.46111111111111114,
+      "proxy_judge_two": 0.5277777777777778
+    }
+  },
+  "rankings": [
+    {
+      "id": "E08",
+      "bt_log_strength": 0.5619370861610544,
+      "bt_expected_share_vs_pool": 0.6361841280159507,
+      "elo_exploratory": 1512.4421202578565,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 4,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": 1.0,
+      "wilson_95_descriptive": [
+        0.5101091635454027,
+        1
+      ],
+      "bt_strength_bootstrap_95": [
+        0.0,
+        0.6693634719750494
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "B10",
+      "bt_log_strength": 0.47853199695976567,
+      "bt_expected_share_vs_pool": 0.6167387548374669,
+      "elo_exploratory": 1513.2119009965822,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 4,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": 1.0,
+      "wilson_95_descriptive": [
+        0.5101091635454027,
+        1
+      ],
+      "bt_strength_bootstrap_95": [
+        0.18472177086666286,
+        0.6373825949470797
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "B03",
+      "bt_log_strength": 0.47370252416095165,
+      "bt_expected_share_vs_pool": 0.6156009258783925,
+      "elo_exploratory": 1511.8423814220732,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 4,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": 1.0,
+      "wilson_95_descriptive": [
+        0.5101091635454027,
+        1
+      ],
+      "bt_strength_bootstrap_95": [
+        0.0,
+        0.5510355421899641
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "D09",
+      "bt_log_strength": 0.45116485980327087,
+      "bt_expected_share_vs_pool": 0.61027492922312,
+      "elo_exploratory": 1512.0992836934454,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 4,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": 1.0,
+      "wilson_95_descriptive": [
+        0.5101091635454027,
+        1
+      ],
+      "bt_strength_bootstrap_95": [
+        0.16223184994068077,
+        0.5731784527653052
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "A01",
+      "bt_log_strength": 0.4510895665048103,
+      "bt_expected_share_vs_pool": 0.6102570925774328,
+      "elo_exploratory": 1511.7402368423561,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 4,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": 1.0,
+      "wilson_95_descriptive": [
+        0.5101091635454027,
+        1
+      ],
+      "bt_strength_bootstrap_95": [
+        0.1709689449007622,
+        0.5787049996875788
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "A10",
+      "bt_log_strength": 0.4344309242488382,
+      "bt_expected_share_vs_pool": 0.606303762264537,
+      "elo_exploratory": 1516.778092836968,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 4,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": 1.0,
+      "wilson_95_descriptive": [
+        0.5101091635454027,
+        1
+      ],
+      "bt_strength_bootstrap_95": [
+        0.22599635650029645,
+        0.5229657242766862
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "D08",
+      "bt_log_strength": 0.42064216275412397,
+      "bt_expected_share_vs_pool": 0.6030212067589301,
+      "elo_exploratory": 1507.9394056979943,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 3,
+      "losses": 0,
+      "ties": 1,
+      "observed_decisive_win_rate": 1.0,
+      "wilson_95_descriptive": [
+        0.4385029682449546,
+        1
+      ],
+      "bt_strength_bootstrap_95": [
+        0.0426157466551925,
+        0.5937017428823445
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "E01",
+      "bt_log_strength": 0.4005005577746664,
+      "bt_expected_share_vs_pool": 0.5982101241880248,
+      "elo_exploratory": 1511.2991317768292,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 4,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": 1.0,
+      "wilson_95_descriptive": [
+        0.5101091635454027,
+        1
+      ],
+      "bt_strength_bootstrap_95": [
+        0.17913001445355786,
+        0.49364245856883543
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "PUB-ce463938e6",
+      "bt_log_strength": 0.39989850831369006,
+      "bt_expected_share_vs_pool": 0.5980660287546129,
+      "elo_exploratory": 1527.2974946642262,
+      "games": 20,
+      "unique_opponents": 20,
+      "wins": 14,
+      "losses": 3,
+      "ties": 3,
+      "observed_decisive_win_rate": 0.8235294117647058,
+      "wilson_95_descriptive": [
+        0.5897054143116588,
+        0.9380887336237901
+      ],
+      "bt_strength_bootstrap_95": [
+        0.27610468034795393,
+        0.516316107729148
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "A08",
+      "bt_log_strength": 0.36343948539362186,
+      "bt_expected_share_vs_pool": 0.5893100242146898,
+      "elo_exploratory": 1507.1149253525255,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 3,
+      "losses": 1,
+      "ties": 0,
+      "observed_decisive_win_rate": 0.75,
+      "wilson_95_descriptive": [
+        0.30064184258240184,
+        0.9544127391902995
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.0019535688420172902,
+        0.5440592345835534
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "E02",
+      "bt_log_strength": 0.3615360169398043,
+      "bt_expected_share_vs_pool": 0.5888513234502957,
+      "elo_exploratory": 1504.331906222402,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 2,
+      "losses": 0,
+      "ties": 2,
+      "observed_decisive_win_rate": 1.0,
+      "wilson_95_descriptive": [
+        0.34238022750665303,
+        1
+      ],
+      "bt_strength_bootstrap_95": [
+        0.03048208273362376,
+        0.5063323889075476
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "E10",
+      "bt_log_strength": 0.34043890462591003,
+      "bt_expected_share_vs_pool": 0.5837574262811651,
+      "elo_exploratory": 1512.0913268051672,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 3,
+      "losses": 0,
+      "ties": 1,
+      "observed_decisive_win_rate": 1.0,
+      "wilson_95_descriptive": [
+        0.4385029682449546,
+        1
+      ],
+      "bt_strength_bootstrap_95": [
+        0.08260262823720467,
+        0.43661502558299786
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "D04",
+      "bt_log_strength": 0.3348225243277492,
+      "bt_expected_share_vs_pool": 0.5823983721964304,
+      "elo_exploratory": 1506.4584812760038,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 2,
+      "losses": 0,
+      "ties": 2,
+      "observed_decisive_win_rate": 1.0,
+      "wilson_95_descriptive": [
+        0.34238022750665303,
+        1
+      ],
+      "bt_strength_bootstrap_95": [
+        0.06251375262108369,
+        0.47308842710563137
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "A02",
+      "bt_log_strength": 0.3339490835215061,
+      "bt_expected_share_vs_pool": 0.5821869068551765,
+      "elo_exploratory": 1511.5545761116664,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 4,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": 1.0,
+      "wilson_95_descriptive": [
+        0.5101091635454027,
+        1
+      ],
+      "bt_strength_bootstrap_95": [
+        0.14737750133571173,
+        0.46493826294560126
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "B02",
+      "bt_log_strength": 0.3253655149149205,
+      "bt_expected_share_vs_pool": 0.5801072227143421,
+      "elo_exploratory": 1505.7856616124932,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 2,
+      "losses": 0,
+      "ties": 2,
+      "observed_decisive_win_rate": 1.0,
+      "wilson_95_descriptive": [
+        0.34238022750665303,
+        1
+      ],
+      "bt_strength_bootstrap_95": [
+        0.0,
+        0.4390010028792787
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "E09",
+      "bt_log_strength": 0.3120624705357194,
+      "bt_expected_share_vs_pool": 0.5768786331268202,
+      "elo_exploratory": 1506.6675568883202,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 3,
+      "losses": 1,
+      "ties": 0,
+      "observed_decisive_win_rate": 0.75,
+      "wilson_95_descriptive": [
+        0.30064184258240184,
+        0.9544127391902995
+      ],
+      "bt_strength_bootstrap_95": [
+        0.0,
+        0.48302534280867987
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "A09",
+      "bt_log_strength": 0.3074739873723723,
+      "bt_expected_share_vs_pool": 0.5757635344289046,
+      "elo_exploratory": 1510.1021392944244,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 3,
+      "losses": 0,
+      "ties": 1,
+      "observed_decisive_win_rate": 1.0,
+      "wilson_95_descriptive": [
+        0.4385029682449546,
+        1
+      ],
+      "bt_strength_bootstrap_95": [
+        0.12391677723624665,
+        0.3885198962264824
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "A07",
+      "bt_log_strength": 0.24627086493682937,
+      "bt_expected_share_vs_pool": 0.5608224369785867,
+      "elo_exploratory": 1511.0799718608564,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 4,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": 1.0,
+      "wilson_95_descriptive": [
+        0.5101091635454027,
+        1
+      ],
+      "bt_strength_bootstrap_95": [
+        0.07061996691650749,
+        0.34094893383632835
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "PUB-01b8a0da1a",
+      "bt_log_strength": 0.2285617473663525,
+      "bt_expected_share_vs_pool": 0.556477998637649,
+      "elo_exploratory": 1510.373311069904,
+      "games": 20,
+      "unique_opponents": 20,
+      "wins": 10,
+      "losses": 8,
+      "ties": 2,
+      "observed_decisive_win_rate": 0.5555555555555556,
+      "wilson_95_descriptive": [
+        0.33716415642042774,
+        0.7544048187299437
+      ],
+      "bt_strength_bootstrap_95": [
+        0.10878102767186007,
+        0.34931630479052306
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "D07",
+      "bt_log_strength": 0.21454135834750643,
+      "bt_expected_share_vs_pool": 0.5530325068945302,
+      "elo_exploratory": 1507.9794830216483,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 3,
+      "losses": 1,
+      "ties": 0,
+      "observed_decisive_win_rate": 0.75,
+      "wilson_95_descriptive": [
+        0.30064184258240184,
+        0.9544127391902995
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.11686416454464355,
+        0.4374988193902323
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "PUB-a41b1ecbbc",
+      "bt_log_strength": 0.20839975603854644,
+      "bt_expected_share_vs_pool": 0.5515216412016538,
+      "elo_exploratory": 1515.322735198934,
+      "games": 20,
+      "unique_opponents": 20,
+      "wins": 10,
+      "losses": 6,
+      "ties": 4,
+      "observed_decisive_win_rate": 0.625,
+      "wilson_95_descriptive": [
+        0.38641040545502714,
+        0.8151876744113636
+      ],
+      "bt_strength_bootstrap_95": [
+        0.08958461168544668,
+        0.31607468149618434
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "B05",
+      "bt_log_strength": 0.19549061177889476,
+      "bt_expected_share_vs_pool": 0.5483429528615039,
+      "elo_exploratory": 1507.297573611853,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 3,
+      "losses": 0,
+      "ties": 1,
+      "observed_decisive_win_rate": 1.0,
+      "wilson_95_descriptive": [
+        0.4385029682449546,
+        1
+      ],
+      "bt_strength_bootstrap_95": [
+        -4.3800987118997525e-05,
+        0.2755110633249316
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "E06",
+      "bt_log_strength": 0.18882922391938456,
+      "bt_expected_share_vs_pool": 0.5467011720447248,
+      "elo_exploratory": 1507.2997771613539,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 3,
+      "losses": 1,
+      "ties": 0,
+      "observed_decisive_win_rate": 0.75,
+      "wilson_95_descriptive": [
+        0.30064184258240184,
+        0.9544127391902995
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.01784123605262518,
+        0.2965011748367712
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "B01",
+      "bt_log_strength": 0.187432582106536,
+      "bt_expected_share_vs_pool": 0.5463568266092764,
+      "elo_exploratory": 1512.2888298599958,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 4,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": 1.0,
+      "wilson_95_descriptive": [
+        0.5101091635454027,
+        1
+      ],
+      "bt_strength_bootstrap_95": [
+        0.09464221763704962,
+        0.25401337492741644
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "F04",
+      "bt_log_strength": 0.17617316326353769,
+      "bt_expected_share_vs_pool": 0.5435792484249851,
+      "elo_exploratory": 1506.3447837985027,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 3,
+      "losses": 1,
+      "ties": 0,
+      "observed_decisive_win_rate": 0.75,
+      "wilson_95_descriptive": [
+        0.30064184258240184,
+        0.9544127391902995
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.001960245593883707,
+        0.2880532529517199
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "C04",
+      "bt_log_strength": 0.16987854767179836,
+      "bt_expected_share_vs_pool": 0.5420252797066946,
+      "elo_exploratory": 1502.9740272861302,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 2,
+      "losses": 1,
+      "ties": 1,
+      "observed_decisive_win_rate": 0.6666666666666666,
+      "wilson_95_descriptive": [
+        0.2076596008020477,
+        0.9385080552796037
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.08639343055681575,
+        0.35941535434753097
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "E05",
+      "bt_log_strength": 0.148800750996693,
+      "bt_expected_share_vs_pool": 0.5368161530845403,
+      "elo_exploratory": 1496.9705670880992,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 0,
+      "losses": 2,
+      "ties": 2,
+      "observed_decisive_win_rate": 0.0,
+      "wilson_95_descriptive": [
+        0,
+        0.6576197724933469
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.03966868001268013,
+        0.2572493692203617
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "C09",
+      "bt_log_strength": 0.14858613334739237,
+      "bt_expected_share_vs_pool": 0.5367630710371134,
+      "elo_exploratory": 1505.087799739954,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 2,
+      "losses": 1,
+      "ties": 1,
+      "observed_decisive_win_rate": 0.6666666666666666,
+      "wilson_95_descriptive": [
+        0.2076596008020477,
+        0.9385080552796037
+      ],
+      "bt_strength_bootstrap_95": [
+        0.020170954598241673,
+        0.22748465338516202
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "C08",
+      "bt_log_strength": 0.14591493615698142,
+      "bt_expected_share_vs_pool": 0.5361023285852764,
+      "elo_exploratory": 1510.132626060213,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 4,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": 1.0,
+      "wilson_95_descriptive": [
+        0.5101091635454027,
+        1
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.1940520876737688,
+        0.39806869369490455
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "A05",
+      "bt_log_strength": 0.1395437307653265,
+      "bt_expected_share_vs_pool": 0.5345258687096003,
+      "elo_exploratory": 1504.265233616386,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 2,
+      "losses": 1,
+      "ties": 1,
+      "observed_decisive_win_rate": 0.6666666666666666,
+      "wilson_95_descriptive": [
+        0.2076596008020477,
+        0.9385080552796037
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.0001667748280241299,
+        0.2715597902061805
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "D10",
+      "bt_log_strength": 0.1197256859147351,
+      "bt_expected_share_vs_pool": 0.5296180668251008,
+      "elo_exploratory": 1502.394193996506,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 2,
+      "losses": 1,
+      "ties": 1,
+      "observed_decisive_win_rate": 0.6666666666666666,
+      "wilson_95_descriptive": [
+        0.2076596008020477,
+        0.9385080552796037
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.12721033857892267,
+        0.29694309448283096
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "E03",
+      "bt_log_strength": 0.10496745554202663,
+      "bt_expected_share_vs_pool": 0.5259596517578546,
+      "elo_exploratory": 1501.6400435342143,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 1,
+      "losses": 1,
+      "ties": 2,
+      "observed_decisive_win_rate": 0.5,
+      "wilson_95_descriptive": [
+        0.09453120573423074,
+        0.9054687942657693
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.06672636205347468,
+        0.20420342378730982
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "B04",
+      "bt_log_strength": 0.1026882374890577,
+      "bt_expected_share_vs_pool": 0.5253944079438015,
+      "elo_exploratory": 1503.2343552273414,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 2,
+      "losses": 1,
+      "ties": 1,
+      "observed_decisive_win_rate": 0.6666666666666666,
+      "wilson_95_descriptive": [
+        0.2076596008020477,
+        0.9385080552796037
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.09436104744789506,
+        0.2508602664037389
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "C03",
+      "bt_log_strength": 0.0843405530211288,
+      "bt_expected_share_vs_pool": 0.520842039961014,
+      "elo_exploratory": 1507.3512385693002,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 3,
+      "losses": 1,
+      "ties": 0,
+      "observed_decisive_win_rate": 0.75,
+      "wilson_95_descriptive": [
+        0.30064184258240184,
+        0.9544127391902995
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.10816417169010596,
+        0.2666863910576426
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "B08",
+      "bt_log_strength": 0.0400367611496202,
+      "bt_expected_share_vs_pool": 0.5098372588386453,
+      "elo_exploratory": 1498.6725334052742,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 1,
+      "losses": 3,
+      "ties": 0,
+      "observed_decisive_win_rate": 0.25,
+      "wilson_95_descriptive": [
+        0.04558726080970055,
+        0.6993581574175981
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.1321788466957765,
+        0.19884935501747344
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "B06",
+      "bt_log_strength": 0.039327391531816185,
+      "bt_expected_share_vs_pool": 0.5096609550413385,
+      "elo_exploratory": 1506.235759657464,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 3,
+      "losses": 1,
+      "ties": 0,
+      "observed_decisive_win_rate": 0.75,
+      "wilson_95_descriptive": [
+        0.30064184258240184,
+        0.9544127391902995
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.08234949060961026,
+        0.2030974647167081
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "A04",
+      "bt_log_strength": 0.03916574659630326,
+      "bt_expected_share_vs_pool": 0.509620780158092,
+      "elo_exploratory": 1504.5683305951086,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 3,
+      "losses": 1,
+      "ties": 0,
+      "observed_decisive_win_rate": 0.75,
+      "wilson_95_descriptive": [
+        0.30064184258240184,
+        0.9544127391902995
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.17059820681277468,
+        0.19834823093584145
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "G01",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "G02",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "G03",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "G04",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "G05",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "H01",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "H02",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "H03",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "H04",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "H05",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "I01",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "I02",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "I03",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "I04",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "I05",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "J01",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "J02",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "J03",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "J04",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "J05",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "K01",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "K02",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "K03",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "K04",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "K05",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "L01",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "L02",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "L03",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "L04",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "L05",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "M01",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "M02",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "M03",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "M04",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "M05",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "N01",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "N02",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "N03",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "N04",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "N05",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "O01",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "O02",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "O03",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "O04",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "O05",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "P01",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "P02",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "P03",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "P04",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "P05",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "Q01",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "Q02",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "Q03",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "Q04",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "Q05",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "R01",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "R02",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "R03",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "R04",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "R05",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "PUB-408dd765dc",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "PUB-5a44f3bb90",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "PUB-508ec8f5e5",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "PUB-ff56059cda",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "PUB-252a6ffb9f",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "PUB-5170df90b6",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "PUB-0ada40eb1e",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "PUB-c304b8bd20",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "PUB-32557a6390",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "PUB-c3445222ab",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "PUB-040edcbcc4",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "PUB-3ddb0b6fa7",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "PUB-7e350869fe",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "PUB-31192b5517",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "PUB-175babbb26",
+      "bt_log_strength": 0.0,
+      "bt_expected_share_vs_pool": 0.49988436115607643,
+      "elo_exploratory": 1500.0,
+      "games": 0,
+      "unique_opponents": 0,
+      "wins": 0,
+      "losses": 0,
+      "ties": 0,
+      "observed_decisive_win_rate": null,
+      "wilson_95_descriptive": [
+        0,
+        1
+      ],
+      "bt_strength_bootstrap_95": null,
+      "data_informed": false,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "C01",
+      "bt_log_strength": -0.01946023244882391,
+      "bt_expected_share_vs_pool": 0.4950463129731674,
+      "elo_exploratory": 1500.7052033578366,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 2,
+      "losses": 2,
+      "ties": 0,
+      "observed_decisive_win_rate": 0.5,
+      "wilson_95_descriptive": [
+        0.15003898915214947,
+        0.8499610108478506
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.17179676863699272,
+        0.15276191040075213
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "E07",
+      "bt_log_strength": -0.1316732339357412,
+      "bt_expected_share_vs_pool": 0.4671949046577293,
+      "elo_exploratory": 1498.3284758910313,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 1,
+      "losses": 2,
+      "ties": 1,
+      "observed_decisive_win_rate": 0.3333333333333333,
+      "wilson_95_descriptive": [
+        0.06149194472039621,
+        0.7923403991979522
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.30998213895325016,
+        0.15880708174478422
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "B07",
+      "bt_log_strength": -0.1419384727008088,
+      "bt_expected_share_vs_pool": 0.46465452306856475,
+      "elo_exploratory": 1498.9182729386519,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 2,
+      "losses": 2,
+      "ties": 0,
+      "observed_decisive_win_rate": 0.5,
+      "wilson_95_descriptive": [
+        0.15003898915214947,
+        0.8499610108478506
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.3494279685451259,
+        0.09865209792241975
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "F07",
+      "bt_log_strength": -0.1593538245216037,
+      "bt_expected_share_vs_pool": 0.4603488635462182,
+      "elo_exploratory": 1500.4489344883111,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 2,
+      "losses": 1,
+      "ties": 1,
+      "observed_decisive_win_rate": 0.6666666666666666,
+      "wilson_95_descriptive": [
+        0.2076596008020477,
+        0.9385080552796037
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.28002419497477393,
+        0.042839602380855636
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "D05",
+      "bt_log_strength": -0.17436898649667276,
+      "bt_expected_share_vs_pool": 0.4566412501712508,
+      "elo_exploratory": 1496.254408128588,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 1,
+      "losses": 3,
+      "ties": 0,
+      "observed_decisive_win_rate": 0.25,
+      "wilson_95_descriptive": [
+        0.04558726080970055,
+        0.6993581574175981
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.24267081808300364,
+        0.0
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "D06",
+      "bt_log_strength": -0.2056316019187891,
+      "bt_expected_share_vs_pool": 0.4489373099596839,
+      "elo_exploratory": 1496.863529526736,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 1,
+      "losses": 3,
+      "ties": 0,
+      "observed_decisive_win_rate": 0.25,
+      "wilson_95_descriptive": [
+        0.04558726080970055,
+        0.6993581574175981
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.3611017563289342,
+        0.0
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "A06",
+      "bt_log_strength": -0.206587009250936,
+      "bt_expected_share_vs_pool": 0.44870223148393334,
+      "elo_exploratory": 1492.10508033208,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 0,
+      "losses": 4,
+      "ties": 0,
+      "observed_decisive_win_rate": 0.0,
+      "wilson_95_descriptive": [
+        0,
+        0.4898908364545973
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.2888164368096614,
+        -0.08901131739213304
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "C10",
+      "bt_log_strength": -0.215716554433555,
+      "bt_expected_share_vs_pool": 0.4464570499027701,
+      "elo_exploratory": 1497.3360250847825,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 2,
+      "losses": 2,
+      "ties": 0,
+      "observed_decisive_win_rate": 0.5,
+      "wilson_95_descriptive": [
+        0.15003898915214947,
+        0.8499610108478506
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.40714341240811625,
+        0.021117152196857655
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "C07",
+      "bt_log_strength": -0.24941615050834254,
+      "bt_expected_share_vs_pool": 0.43818868016886636,
+      "elo_exploratory": 1497.3749806694973,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 1,
+      "losses": 2,
+      "ties": 1,
+      "observed_decisive_win_rate": 0.3333333333333333,
+      "wilson_95_descriptive": [
+        0.06149194472039621,
+        0.7923403991979522
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.333540368430437,
+        -0.09601219555529378
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "C06",
+      "bt_log_strength": -0.251425384575074,
+      "bt_expected_share_vs_pool": 0.43769671944775507,
+      "elo_exploratory": 1493.892116164958,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 1,
+      "losses": 3,
+      "ties": 0,
+      "observed_decisive_win_rate": 0.25,
+      "wilson_95_descriptive": [
+        0.04558726080970055,
+        0.6993581574175981
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.45861876116711786,
+        0.0744245017110835
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "F09",
+      "bt_log_strength": -0.25211127091681024,
+      "bt_expected_share_vs_pool": 0.43752880768388575,
+      "elo_exploratory": 1495.533056274538,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 2,
+      "losses": 2,
+      "ties": 0,
+      "observed_decisive_win_rate": 0.5,
+      "wilson_95_descriptive": [
+        0.15003898915214947,
+        0.8499610108478506
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.3474813749176628,
+        -0.09098632288340978
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "PUB-060f897708",
+      "bt_log_strength": -0.26464383891218995,
+      "bt_expected_share_vs_pool": 0.434463216027408,
+      "elo_exploratory": 1482.5261571930907,
+      "games": 20,
+      "unique_opponents": 20,
+      "wins": 6,
+      "losses": 11,
+      "ties": 3,
+      "observed_decisive_win_rate": 0.35294117647058826,
+      "wilson_95_descriptive": [
+        0.17309720397243744,
+        0.5869963651478132
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.3661643152576135,
+        -0.1727558816555211
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "F02",
+      "bt_log_strength": -0.2660672980330927,
+      "bt_expected_share_vs_pool": 0.43411532950496595,
+      "elo_exploratory": 1493.755904786538,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 1,
+      "losses": 2,
+      "ties": 1,
+      "observed_decisive_win_rate": 0.3333333333333333,
+      "wilson_95_descriptive": [
+        0.06149194472039621,
+        0.7923403991979522
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.3705515840183528,
+        -0.0728923461292781
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "F08",
+      "bt_log_strength": -0.29502448560752464,
+      "bt_expected_share_vs_pool": 0.4270525784931625,
+      "elo_exploratory": 1492.0902690032676,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 1,
+      "losses": 3,
+      "ties": 0,
+      "observed_decisive_win_rate": 0.25,
+      "wilson_95_descriptive": [
+        0.04558726080970055,
+        0.6993581574175981
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.36829291585108015,
+        -0.17539554276691763
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "B09",
+      "bt_log_strength": -0.29864740172744175,
+      "bt_expected_share_vs_pool": 0.42617092310795796,
+      "elo_exploratory": 1493.7933260076848,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 1,
+      "losses": 3,
+      "ties": 0,
+      "observed_decisive_win_rate": 0.25,
+      "wilson_95_descriptive": [
+        0.04558726080970055,
+        0.6993581574175981
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.4299709754596099,
+        0.0
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "F10",
+      "bt_log_strength": -0.30541634100122494,
+      "bt_expected_share_vs_pool": 0.42452490078772925,
+      "elo_exploratory": 1491.763300158399,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 0,
+      "losses": 3,
+      "ties": 1,
+      "observed_decisive_win_rate": 0.0,
+      "wilson_95_descriptive": [
+        5.551115123125783e-17,
+        0.5614970317550454
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.4356662893089385,
+        -0.08963180059808987
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "F06",
+      "bt_log_strength": -0.316694585890645,
+      "bt_expected_share_vs_pool": 0.42178598907615555,
+      "elo_exploratory": 1491.4772305730926,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 1,
+      "losses": 3,
+      "ties": 0,
+      "observed_decisive_win_rate": 0.25,
+      "wilson_95_descriptive": [
+        0.04558726080970055,
+        0.6993581574175981
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.47256399723937176,
+        -0.060034219733655414
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "D02",
+      "bt_log_strength": -0.3186363159000888,
+      "bt_expected_share_vs_pool": 0.4213149114902861,
+      "elo_exploratory": 1491.680615052782,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 1,
+      "losses": 3,
+      "ties": 0,
+      "observed_decisive_win_rate": 0.25,
+      "wilson_95_descriptive": [
+        0.04558726080970055,
+        0.6993581574175981
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.449181738304381,
+        -0.10327771887340535
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "C02",
+      "bt_log_strength": -0.31941564485385326,
+      "bt_expected_share_vs_pool": 0.42112588006270607,
+      "elo_exploratory": 1490.2135379159768,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 1,
+      "losses": 3,
+      "ties": 0,
+      "observed_decisive_win_rate": 0.25,
+      "wilson_95_descriptive": [
+        0.04558726080970055,
+        0.6993581574175981
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.5804249611029592,
+        -0.07024552451071735
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "C05",
+      "bt_log_strength": -0.3942974235281676,
+      "bt_expected_share_vs_pool": 0.4030757854917251,
+      "elo_exploratory": 1487.8480015705209,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 0,
+      "losses": 4,
+      "ties": 0,
+      "observed_decisive_win_rate": 0.0,
+      "wilson_95_descriptive": [
+        0,
+        0.4898908364545973
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.5025199746673874,
+        -0.1496055737118224
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "F05",
+      "bt_log_strength": -0.42368547880154445,
+      "bt_expected_share_vs_pool": 0.396058601345137,
+      "elo_exploratory": 1491.5973784204318,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 1,
+      "losses": 3,
+      "ties": 0,
+      "observed_decisive_win_rate": 0.25,
+      "wilson_95_descriptive": [
+        0.04558726080970055,
+        0.6993581574175981
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.5808918833129032,
+        0.0
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "D01",
+      "bt_log_strength": -0.4243294229635623,
+      "bt_expected_share_vs_pool": 0.3959052985265474,
+      "elo_exploratory": 1487.5667848796345,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 0,
+      "losses": 4,
+      "ties": 0,
+      "observed_decisive_win_rate": 0.0,
+      "wilson_95_descriptive": [
+        0,
+        0.4898908364545973
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.5266273141980807,
+        -0.13985283749171062
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "D03",
+      "bt_log_strength": -0.44294547792880773,
+      "bt_expected_share_vs_pool": 0.3914821500536906,
+      "elo_exploratory": 1486.9214136774958,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 0,
+      "losses": 4,
+      "ties": 0,
+      "observed_decisive_win_rate": 0.0,
+      "wilson_95_descriptive": [
+        0,
+        0.4898908364545973
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.5514015415713794,
+        -0.1644472093169025
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "A03",
+      "bt_log_strength": -0.47566655806459396,
+      "bt_expected_share_vs_pool": 0.3837500878457535,
+      "elo_exploratory": 1487.6242684117474,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 0,
+      "losses": 4,
+      "ties": 0,
+      "observed_decisive_win_rate": 0.0,
+      "wilson_95_descriptive": [
+        0,
+        0.4898908364545973
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.5718531172122852,
+        -0.21064800260783673
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "F03",
+      "bt_log_strength": -0.48082082530106085,
+      "bt_expected_share_vs_pool": 0.3825372323230609,
+      "elo_exploratory": 1487.8381382873092,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 0,
+      "losses": 4,
+      "ties": 0,
+      "observed_decisive_win_rate": 0.0,
+      "wilson_95_descriptive": [
+        0,
+        0.4898908364545973
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.5824577814621363,
+        -0.18839369324446664
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "E04",
+      "bt_log_strength": -0.5619245688986422,
+      "bt_expected_share_vs_pool": 0.3636487890561654,
+      "elo_exploratory": 1489.1558761686815,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 0,
+      "losses": 3,
+      "ties": 1,
+      "observed_decisive_win_rate": 0.0,
+      "wilson_95_descriptive": [
+        5.551115123125783e-17,
+        0.5614970317550454
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.6831777832495364,
+        0.0
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "PUB-39797602c4",
+      "bt_log_strength": -0.5823669106532775,
+      "bt_expected_share_vs_pool": 0.35894948026608364,
+      "elo_exploratory": 1452.1824684013325,
+      "games": 20,
+      "unique_opponents": 20,
+      "wins": 0,
+      "losses": 19,
+      "ties": 1,
+      "observed_decisive_win_rate": 0.0,
+      "wilson_95_descriptive": [
+        0,
+        0.16817922405261626
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.661802521005409,
+        -0.48846201201514816
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "F01",
+      "bt_log_strength": -0.6494880181642925,
+      "bt_expected_share_vs_pool": 0.3437081587518203,
+      "elo_exploratory": 1487.8411882188725,
+      "games": 4,
+      "unique_opponents": 4,
+      "wins": 0,
+      "losses": 3,
+      "ties": 1,
+      "observed_decisive_win_rate": 0.0,
+      "wilson_95_descriptive": [
+        5.551115123125783e-17,
+        0.5614970317550454
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.7283473334656629,
+        -0.32765769055921795
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    },
+    {
+      "id": "PUB-adf2b2ac3c",
+      "bt_log_strength": -0.8519066357243883,
+      "bt_expected_share_vs_pool": 0.29969590695181336,
+      "elo_exploratory": 1436.0942623057585,
+      "games": 20,
+      "unique_opponents": 20,
+      "wins": 0,
+      "losses": 19,
+      "ties": 1,
+      "observed_decisive_win_rate": 0.0,
+      "wilson_95_descriptive": [
+        0,
+        0.16817922405261626
+      ],
+      "bt_strength_bootstrap_95": [
+        -0.9016522444035768,
+        -0.7573914029283304
+      ],
+      "data_informed": true,
+      "eliminated": false,
+      "elimination_reason": "Insufficient independent evidence for irreversible elimination"
+    }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "retrieved_at": "2026-11-17T14:57:04.957985+00:00",
+  "entries": 96,
+  "top10": [
+    {
+      "rank": 1,
+      "handle": "amrusalim",
+      "rate_percent": 90.3623,
+      "matches": 23
+    },
+    {
+      "rank": 2,
+      "handle": "tuan-le",
+      "rate_percent": 86.0143,
+      "matches": 23
+    },
+    {
+      "rank": 3,
+      "handle": "emu-builds",
+      "rate_percent": 85.9689,
+      "matches": 23
+    },
+    {
+      "rank": 4,
+      "handle": "wlowichot",
+      "rate_percent": 85.9016,
+      "matches": 23
+    },
+    {
+      "rank": 5,
+      "handle": "mnc",
+      "rate_percent": 85.219,
+      "matches": 23
+    },
+    {
+      "rank": 6,
+      "handle": "rapid-panda-66",
+      "rate_percent": 84.216,
+      "matches": 23
+    },
+    {
+      "rank": 7,
+      "handle": "junod",
+      "rate_percent": 83.5921,
+      "matches": 23
+    },
+    {
+      "rank": 8,
+      "handle": "patrickslur",
+      "rate_percent": 83.5319,
+      "matches": 23
+    },
+    {
+      "rank": 9,
+      "handle": "steady-puffin-17",
+      "rate_percent": 83.2012,
+      "matches": 23
+    },
+    {
+      "rank": 10,
+      "handle": "mamanzy",
+      "rate_percent": 83.0267,
+      "matches": 23
+    }
+  ],
+  "median_rate_percent": 74.29065,
+  "first_second_gap_percentage_points": 4.348
+}

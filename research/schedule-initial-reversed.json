@@ -1,0 +1,362 @@
+[
+  {
+    "pair_id": "initial-001",
+    "a": "D04",
+    "b": "F06",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-002",
+    "a": "A05",
+    "b": "D04",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-003",
+    "a": "A05",
+    "b": "A03",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-004",
+    "a": "E06",
+    "b": "A03",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-005",
+    "a": "E01",
+    "b": "E06",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-006",
+    "a": "C05",
+    "b": "E01",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-007",
+    "a": "B01",
+    "b": "C05",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-008",
+    "a": "B01",
+    "b": "D05",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-009",
+    "a": "D05",
+    "b": "D10",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-010",
+    "a": "E08",
+    "b": "D10",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-011",
+    "a": "E08",
+    "b": "E05",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-012",
+    "a": "E02",
+    "b": "E05",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-013",
+    "a": "E02",
+    "b": "D08",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-014",
+    "a": "D08",
+    "b": "C02",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-015",
+    "a": "B10",
+    "b": "C02",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-016",
+    "a": "B10",
+    "b": "D01",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-017",
+    "a": "C09",
+    "b": "D01",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-018",
+    "a": "E03",
+    "b": "C09",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-019",
+    "a": "E03",
+    "b": "B02",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-020",
+    "a": "E10",
+    "b": "B02",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-021",
+    "a": "F02",
+    "b": "E10",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-022",
+    "a": "F02",
+    "b": "C07",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-023",
+    "a": "C07",
+    "b": "A02",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-024",
+    "a": "C10",
+    "b": "A02",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-025",
+    "a": "F05",
+    "b": "C10",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-026",
+    "a": "F05",
+    "b": "C03",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-027",
+    "a": "C03",
+    "b": "A06",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-028",
+    "a": "B04",
+    "b": "A06",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-029",
+    "a": "C04",
+    "b": "B04",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-030",
+    "a": "B09",
+    "b": "C04",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-031",
+    "a": "B09",
+    "b": "B05",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-032",
+    "a": "B05",
+    "b": "F08",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-033",
+    "a": "F08",
+    "b": "A10",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-034",
+    "a": "A10",
+    "b": "F09",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-035",
+    "a": "F09",
+    "b": "A08",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-036",
+    "a": "A04",
+    "b": "A08",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-037",
+    "a": "A04",
+    "b": "D06",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-038",
+    "a": "C08",
+    "b": "D06",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-039",
+    "a": "C08",
+    "b": "B07",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-040",
+    "a": "B07",
+    "b": "D09",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-041",
+    "a": "D09",
+    "b": "B08",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-042",
+    "a": "B08",
+    "b": "F03",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-043",
+    "a": "F07",
+    "b": "F03",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-044",
+    "a": "F07",
+    "b": "F01",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-045",
+    "a": "F01",
+    "b": "B06",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-046",
+    "a": "B06",
+    "b": "A07",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-047",
+    "a": "D03",
+    "b": "A07",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-048",
+    "a": "D03",
+    "b": "C01",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-049",
+    "a": "C01",
+    "b": "F04",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-050",
+    "a": "F04",
+    "b": "E07",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-051",
+    "a": "E04",
+    "b": "E07",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-052",
+    "a": "D07",
+    "b": "E04",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-053",
+    "a": "D07",
+    "b": "E09",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-054",
+    "a": "B03",
+    "b": "E09",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-055",
+    "a": "B03",
+    "b": "D02",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-056",
+    "a": "D02",
+    "b": "A01",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-057",
+    "a": "F10",
+    "b": "A01",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-058",
+    "a": "C06",
+    "b": "F10",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-059",
+    "a": "A09",
+    "b": "C06",
+    "split": "development"
+  },
+  {
+    "pair_id": "initial-060",
+    "a": "A09",
+    "b": "F06",
+    "split": "development"
+  }
+]
