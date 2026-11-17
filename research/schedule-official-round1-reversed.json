@@ -1,0 +1,107 @@
+[
+  {
+    "pair_id": "official-proxy-21",
+    "a": "T5",
+    "b": "T6"
+  },
+  {
+    "pair_id": "official-proxy-14",
+    "a": "T2",
+    "b": "T5"
+  },
+  {
+    "pair_id": "official-proxy-17",
+    "a": "T5",
+    "b": "T3"
+  },
+  {
+    "pair_id": "official-proxy-08",
+    "a": "T3",
+    "b": "T1"
+  },
+  {
+    "pair_id": "official-proxy-15",
+    "a": "T2",
+    "b": "T6"
+  },
+  {
+    "pair_id": "official-proxy-07",
+    "a": "T1",
+    "b": "T2"
+  },
+  {
+    "pair_id": "official-proxy-05",
+    "a": "T0",
+    "b": "T5"
+  },
+  {
+    "pair_id": "official-proxy-09",
+    "a": "T4",
+    "b": "T1"
+  },
+  {
+    "pair_id": "official-proxy-02",
+    "a": "T0",
+    "b": "T2"
+  },
+  {
+    "pair_id": "official-proxy-10",
+    "a": "T5",
+    "b": "T1"
+  },
+  {
+    "pair_id": "official-proxy-12",
+    "a": "T2",
+    "b": "T3"
+  },
+  {
+    "pair_id": "official-proxy-04",
+    "a": "T0",
+    "b": "T4"
+  },
+  {
+    "pair_id": "official-proxy-18",
+    "a": "T3",
+    "b": "T6"
+  },
+  {
+    "pair_id": "official-proxy-20",
+    "a": "T6",
+    "b": "T4"
+  },
+  {
+    "pair_id": "official-proxy-06",
+    "a": "T6",
+    "b": "T0"
+  },
+  {
+    "pair_id": "official-proxy-01",
+    "a": "T0",
+    "b": "T1"
+  },
+  {
+    "pair_id": "official-proxy-16",
+    "a": "T3",
+    "b": "T4"
+  },
+  {
+    "pair_id": "official-proxy-03",
+    "a": "T3",
+    "b": "T0"
+  },
+  {
+    "pair_id": "official-proxy-13",
+    "a": "T4",
+    "b": "T2"
+  },
+  {
+    "pair_id": "official-proxy-19",
+    "a": "T5",
+    "b": "T4"
+  },
+  {
+    "pair_id": "official-proxy-11",
+    "a": "T6",
+    "b": "T1"
+  }
+]

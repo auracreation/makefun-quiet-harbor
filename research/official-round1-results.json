@@ -1,0 +1,41 @@
+{
+  "submission_id": "01a1ea2b-09bc-7567-b426-64e877609ddb",
+  "recorded_at": "2026-11-17T16:05:25.614899+00:00",
+  "judge_model": "z-ai/glm-5.3-flash",
+  "official_provisional": true,
+  "win_rate_micro": 809836,
+  "interval_low_micro": 783080,
+  "interval_high_micro": 836592,
+  "interval_level": "0.900000000",
+  "wins": 9,
+  "draws": 8,
+  "losses": 6,
+  "matches": 23,
+  "invalid_calls": 0,
+  "artifact_sha256": "49995356f8c6ba8c52a88350dcd735b07462381c0316a2c47fba99d52a818a29",
+  "artifact_bytes": 450,
+  "opponent_groups": {
+    "anchor:1-weak.txt": {
+      "win": 1
+    },
+    "anchor:2-mid.txt": {
+      "win": 1
+    },
+    "anchor:3-strong.txt": {
+      "win": 1
+    },
+    "rung:c6-wide-river.txt": {
+      "draw": 3,
+      "win": 4,
+      "loss": 3
+    },
+    "rung:c4-library.txt": {
+      "draw": 5,
+      "loss": 3,
+      "win": 2
+    }
+  },
+  "target_percent": 92,
+  "target_achieved": false,
+  "limitations": "Provisional GLM development rating uses the house opponents and fractional margins. Proxy-review percentages measure another pool."
+}
