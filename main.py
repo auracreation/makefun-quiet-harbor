@@ -3,13 +3,14 @@ from pathlib import Path
 
 
 TEXT = (
-    "She trails a hand in the warm bathwater. "
-    "On the stool beside the tub, a towel has been folded with the worn patch hidden underneath. "
-    "Through the wall she hears a cupboard being closed and the light footsteps of someone going upstairs. "
-    "She lifts her hand. "
-    "Water follows the curve of her wrist, gathers at her elbow, and falls. "
-    "The surface moves toward the sides of the tub and back, each return a little lower, "
-    "until the pale ceiling lies in it again."
+    "The evening barge passed through before dusk, and the lockkeeper has walked home along the grass path.\n\n"
+    "Deep underneath, quiet water feeds into the chamber without a splash, rising in wide, smooth swirls "
+    "that touch the mossy wall and lose their turn.\n\n"
+    "Little by little, the wet band along the stone disappears as the water comes up to meet it.\n\n"
+    "An alder leaf floating by the iron ladder turns once, slows, and rests still against the side.\n\n"
+    "Now the lock and the long canal above it stand at one even level.\n\n"
+    "With no hand on the heavy wooden beam, the two tall gates ease apart on their hinges "
+    "and float a thumb's width open on the dark, flat water."
 )
 
 output_dir = Path(os.environ.get("MAKEFUN_OUTPUT_DIR", "/output"))
